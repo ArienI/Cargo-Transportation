@@ -1,6 +1,6 @@
-@import url(/vendor/normalize.css);
-@import url(/vendor/fonts/fonts.css);
-@import url(/images/man-leaning-front-car.jpg);
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./images/man-leaning-front-car.jpg);
 
 .page {
   background-color: #162114;
@@ -200,6 +200,7 @@
 .banner__main {
   width: 100%;
   height: 500px;
+  background-color: #294122;
   background-image: url('./images/man-leaning-front-car.jpg');
   background-size: cover;
   background-position: center;
