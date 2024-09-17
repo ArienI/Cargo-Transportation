@@ -55,6 +55,7 @@
   line-height: 28px;
   /* 116.667% */
   text-align: right;
+  font-family: 'Inter', Arial, sans-serif;
   color: #ffedd2;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -129,6 +130,7 @@
   text-align: right;
   color: #ffedd2;
   text-decoration: none;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .dropdown__content-item {
@@ -142,6 +144,7 @@
   text-decoration: none;
   font-size: 18px;
   display: block;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .dropdown__content-link:hover {
@@ -159,6 +162,7 @@
   transition: all 0.3s ease;
   z-index: 1;
   padding: 0;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .dropdown__content-item a {
@@ -220,6 +224,7 @@
   color: #ffedd2;
   text-shadow: -2px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .contact {
@@ -232,6 +237,7 @@
   padding: 10px 20px;
   border-radius: 8px;
   display: inline-block;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .massenger__links-banner {
@@ -254,6 +260,7 @@
   justify-content: space-around;
   align-items: center;
   border-bottom-right-radius: 50px;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .banner__timetable-text {
@@ -264,6 +271,7 @@
   border-radius: 5px;
   color: #ffedd2;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .service {
@@ -287,11 +295,13 @@
 .services__description-main {
   font-size: 24px;
   margin-bottom: 15px;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .services__description-mainoffer {
   font-size: 20px;
   margin-bottom: 20px;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .services__menu {
@@ -306,6 +316,7 @@
   line-height: 1.5;
   padding-left: 20px;
   position: relative;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .services__menu-item::before {
@@ -378,6 +389,7 @@
   color: #ffedd2;
   text-decoration: none;
   font-size: 16px;
+  font-family: 'Inter', Arial, sans-serif;
 }
 .footer__navbar-text:hover {
   color: #eb3d00;
@@ -398,6 +410,7 @@
 .footer__copyright {
   margin: 0;
   font-size: 14px;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 /* * {
