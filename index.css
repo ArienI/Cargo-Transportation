@@ -457,17 +457,17 @@
     justify-content: space-between;
   }
 
-  .navbar__text {
-    font-size: 16px;
-  }
-
   .navbar {
     width: 100%;
   }
 
+  .navbar__text {
+    font-size: 14px;
+  }
+
   .menu {
     flex-direction: row;
-    gap: 15px;
+    gap: 5px;
     margin-right: 20px;
   }
 

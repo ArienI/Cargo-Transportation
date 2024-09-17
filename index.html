@@ -112,7 +112,15 @@
       
     </ul></li>
     <li class="dropdown">
-      <a href="#" class="navbar__text">Prevoz putnika za Nemačku</a>
+      <a href="#" class="navbar__text navbar__text-style">Prevoz putnika za Nemačku</a>
+
+      <script>        
+        if (window.innerWidth <= 768) {
+          const link = document.querySelector('.navbar__text-style');
+          link.textContent = 'Prijevoz za Njemačku'; 
+        }
+      </script>  <!--не забыть убрать потом-->
+      
       <ul class="dropdown__content">
         <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Crna Gora</a></li>
         <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Hrvatska</a></li>
