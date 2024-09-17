@@ -406,14 +406,9 @@
 
 /* мобильные */
 @media (max-width: 768px) {
-  .header__bottom {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-  }
   .header__top {
     width: 100%;
-    padding: 10px;
+    padding: 0;
     justify-content: space-between;
   }
 
@@ -450,10 +445,20 @@
   .massenger__links {
     display: flex;
     gap: 10px;
+    padding-right: 20px;
   }
 
   .massenger__link {
     width: 30px;
+  }
+
+  .header__bottom {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .navbar__text {
+    font-size: 16px;
   }
 
   .navbar {
@@ -461,8 +466,9 @@
   }
 
   .menu {
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
+    margin-right: 20px;
   }
 
   .banner__text {
