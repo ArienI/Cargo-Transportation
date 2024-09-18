@@ -73,40 +73,43 @@
 		<link rel="stylesheet" href="index.css" />
 
 		<title>Transport of passengers</title>
+
+		<!--не забыть убрать потом-->
+		<script>
+			if (window.innerWidth <= 768) {
+				const link = document.querySelector('.navbar__text-style')
+				link.textContent = 'Prijevoz za Njemačku'
+			}
+		</script>
 	</head>
 
 	<body class="page">
 		<header class="header">
-			<section class="header__top-section">
+			<div class="container">
 				<div class="header__top">
 					<div class="language__selector">
 						<button class="language__toggle">Jezik</button>
-						<ul class="header__links">
+						<ul class="header__lang">
 							<li>
-								<a
-									href="#"
-									class="header__lang-link header__lang-link_active"
-									target="_blank"
-									>Sr</a
-								>
+								<button class="header__lang-switch">Sr</button>
 							</li>
 							<li>
-								<a href="#" class="header__lang-link" target="_blank">En</a>
+								<button class="header__lang-switch">En</button>
 							</li>
 							<li>
-								<a href="#" class="header__lang-link" target="_blank">De</a>
+								<button class="header__lang-switch">De</button>
 							</li>
 							<li>
-								<a href="#" class="header__lang-link" target="_blank">Fr</a>
+								<button class="header__lang-switch">Fr</button>
 							</li>
 							<li>
-								<a href="#" class="header__lang-link" target="_blank">Tr</a>
+								<button class="header__lang-switch">Tr</button>
 							</li>
 							<li>
-								<a href="#" class="header__lang-link" target="_blank">Sq</a>
+								<button class="header__lang-switch">Sq</button>
 							</li>
 							<li>
-								<a href="#" class="header__lang-link" target="_blank">Ru</a>
+								<button class="header__lang-switch">Ru</button>
 							</li>
 						</ul>
 					</div>
@@ -136,108 +139,104 @@
 						</div>
 					</div>
 				</div>
-			</section>
 
-			<section class="header__bottom">
-				<img
-					class="header__bottom-logo"
-					src="./images/icons8-микроавтобус-pastel-glyph-96.png"
-					alt="Logo"
-				/>
+				<div class="header__bottom">
+					<img
+						class="header__bottom-logo"
+						src="./images/icons8-микроавтобус-pastel-glyph-96.png"
+						alt="Logo"
+					/>
 
-				<nav class="navbar">
-					<ul class="menu">
-						<li class="dropdown">
-							<a href="#" class="navbar__text">Transfer</a>
-							<ul class="dropdown__content">
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link"
-										>aerodrom Podgorica</a
-									>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">aerodrom Tivat</a>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link"
-										>aerodrom Dubrovnik</a
-									>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link"
-										>aerodrom Priština</a
-									>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link"
-										>aerodrom Beograd</a
-									>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">aerodrom Tirana</a>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link"
-										>aerodrom Sarajevo</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="navbar__text">Exkursje</a>
-							<ul class="dropdown__content">
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">Crna Gora</a>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">Albanija</a>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">Srbija</a>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">Hrvatska</a>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">Bosna</a>
-								</li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="navbar__text navbar__text-style"
-								>Prevoz putnika za Nemačku</a
-							>
+					<nav class="navbar">
+						<ul class="menu">
+							<li class="dropdown">
+								<a href="#" class="navbar__text">Transfer</a>
+								<ul class="dropdown__content">
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Podgorica</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Tivat</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Dubrovnik</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Priština</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Beograd</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Tirana</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Sarajevo</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="navbar__text">Exkursje</a>
+								<ul class="dropdown__content">
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Crna Gora</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Albanija</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Srbija</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Hrvatska</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Bosna</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="navbar__text navbar__text-style"
+									>Prevoz putnika za Nemačku</a
+								>
 
-							<script>
-								if (window.innerWidth <= 768) {
-									const link = document.querySelector('.navbar__text-style')
-									link.textContent = 'Prijevoz za Njemačku'
-								}
-							</script>
-							<!--не забыть убрать потом-->
-
-							<ul class="dropdown__content">
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">Crna Gora</a>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">Hrvatska</a>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">Srbija</a>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">Slovenija</a>
-								</li>
-								<li class="dropdown__content-item">
-									<a href="#" class="dropdown__content-link">Avstrija</a>
-								</li>
-							</ul>
-						</li>
-						<li><a href="#" class="navbar__text">Kontakt</a></li>
-					</ul>
-				</nav>
-			</section>
+								<ul class="dropdown__content">
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Crna Gora</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Hrvatska</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Srbija</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Slovenija</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Avstrija</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#" class="navbar__text">Kontakt</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		</header>
 
 		<main class="content">
