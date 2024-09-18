@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="sr">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="description" content="Montenegro. Transport services for passengers." />
-  <meta name="keywords"
-    content="usluge transfera, ekskurzije, prevoz putnika, Crna Gora, aerodromski transfer, putovanja, privatni prevoz, taksi, turističke ture, turizam, izleti" />
-    <!--
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+		<meta
+			name="description"
+			content="Montenegro. Transport services for passengers."
+		/>
+		<meta
+			name="keywords"
+			content="usluge transfera, ekskurzije, prevoz putnika, Crna Gora, aerodromski transfer, putovanja, privatni prevoz, taksi, turističke ture, turizam, izleti"
+		/>
+		<!--
     En <meta name="keywords" content="transfer services, excursions, passenger transport, Montenegro, airport transfer, travel, private transport, taxi, sightseeing tours, transportation, tourism, trips" />
     Ru <meta name="keywords"
       content="трансфер, экскурсии, перевозка пассажиров, Черногория, трансфер в аэропорт, путешествия, частный транспорт, такси, обзорные экскурсии, туризм, поездки" />
@@ -20,207 +27,341 @@
             Tr <meta name="keywords"
               content="transfer hizmetleri, geziler, yolcu taşıma, Karadağ, havaalanı transferi, seyahat, özel taşıma, taksi, turistik turlar, turizm, ulaşım" />
     -->
-  <meta name="author" content="Arien" />
+		<meta name="author" content="Arien" />
 
-  <!-- seo доделать позже -->
-  <meta property="og:title" content="Transport of passengers" />
-  <meta property="og:description" content="Montenegro. Transport services for passengers." />
-  <meta property="og:image" content="/images/preview-image.png" />
-  <meta property="og:url" content="https://yourwebsite.com" />
-  <meta property="og:type" content="website" />
+		<!-- seo доделать позже -->
+		<meta property="og:title" content="Transport of passengers" />
+		<meta
+			property="og:description"
+			content="Montenegro. Transport services for passengers."
+		/>
+		<meta property="og:image" content="/images/preview-image.png" />
+		<meta property="og:url" content="https://yourwebsite.com" />
+		<meta property="og:type" content="website" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Transport of passengers" />
-  <meta name="twitter:description" content="Montenegro. Transport services for passengers." />
-  <meta name="twitter:image" content="/images/preview-image.png" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Transport of passengers" />
+		<meta
+			name="twitter:description"
+			content="Montenegro. Transport services for passengers."
+		/>
+		<meta name="twitter:image" content="/images/preview-image.png" />
+		<meta name="theme-color" content="#ffffff" />
 
-  <!-- fav исправить потом -->
-  <!-- <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+		<!-- fav исправить потом -->
+		<!-- <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
  
   
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5"> -->
-  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <meta name="theme-color" content="#ffffff">
-  
-  <link rel="stylesheet" href="./vendor/normalize.css" />
-  <link rel="stylesheet" href="index.css" />
-  
-  <title>Transport of passengers</title>
-</head>
+		<link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./images/favicon-16x16.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
 
-<body class="page">
+		<!-- CSS -->
+		<link rel="stylesheet" href="./assets/css/all.css" />
+		<link rel="stylesheet" href="index.css" />
 
-  <header class="header">
+		<title>Transport of passengers</title>
 
-    <section class="header__top-section">
-      <div class="header__top">
-      <div class="language__selector">
-        <button class="language__toggle">Jezik</button>
-        <ul class="header__links">
-          <li><a href="#" class="header__lang-link  header__lang-link_active" target="_blank">Sr</a></li>
-          <li><a href="#" class="header__lang-link " target="_blank">En</a></li>
-          <li><a href="#" class="header__lang-link " target="_blank">De</a></li>
-          <li><a href="#" class="header__lang-link " target="_blank">Fr</a></li>
-          <li><a href="#" class="header__lang-link " target="_blank">Tr</a></li>
-          <li><a href="#" class="header__lang-link " target="_blank">Sq</a></li>
-          <li>
-            <a href="#" class="header__lang-link" target="_blank">Ru</a>
-          </li>          
-        </ul>        
-      </div>
+		<!--не забыть убрать потом-->
+		<script>
+			if (window.innerWidth <= 768) {
+				const link = document.querySelector('.navbar__text-style')
+				link.textContent = 'Prijevoz za Njemačku'
+			}
+		</script>
+	</head>
 
-      <div class="massenger">
-<div class="massenger__links">
-  
-    <a href="#" target="_blank" class="massenger__link"><img src="./images/Social_Icons/square/Telegram.svg" class="social__icon"
-        alt="Telegram" /></a>
-  
-    <a href="#" target="_blank" class="massenger__link"><img src="./images/Social_Icons/square/WhatsApp.svg" class="social__icon" alt="WhatsApp" /></a>
- 
-    <a href="#" target="_blank" class="massenger__link"><img src="./images/Social_Icons/square/Viber.svg" class="social__icon" alt="Viber" /></a>
-  
-</div>
-      </div>
-      </div>
-    </section>
-    
-    <section class="header__bottom">
-   <img class="header__bottom-logo" src="./images/icons8-микроавтобус-pastel-glyph-96.png" alt="Logo" />
+	<body class="page">
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<div class="language__selector">
+						<button class="language__toggle">Jezik</button>
+						<ul class="header__lang">
+							<li>
+								<button class="header__lang-switch">Sr</button>
+							</li>
+							<li>
+								<button class="header__lang-switch">En</button>
+							</li>
+							<li>
+								<button class="header__lang-switch">De</button>
+							</li>
+							<li>
+								<button class="header__lang-switch">Fr</button>
+							</li>
+							<li>
+								<button class="header__lang-switch">Tr</button>
+							</li>
+							<li>
+								<button class="header__lang-switch">Sq</button>
+							</li>
+							<li>
+								<button class="header__lang-switch">Ru</button>
+							</li>
+						</ul>
+					</div>
 
-<nav class="navbar">
-  <ul class="menu">
-    <li class="dropdown"><a href="#" class="navbar__text">Transfer</a>
-    <ul class="dropdown__content">
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Podgorica</a></li>
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Tivat</a></li>
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Dubrovnik</a></li>
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Priština</a></li>
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Beograd</a></li>
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Tirana</a></li>
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Sarajevo</a></li>     
-    </ul></li>
-    <li class="dropdown"><a href="#" class="navbar__text">Exkursje</a>
-    <ul class="dropdown__content">
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Crna Gora</a></li>
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Albanija</a></li>
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Srbija</a></li>
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Hrvatska</a></li>
-      <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Bosna</a></li>
-      
-    </ul></li>
-    <li class="dropdown">
-      <a href="#" class="navbar__text navbar__text-style">Prevoz putnika za Nemačku</a>
+					<div class="massenger">
+						<div class="massenger__links">
+							<a href="#" target="_blank" class="massenger__link"
+								><img
+									src="./images/Social_Icons/square/Telegram.svg"
+									class="social__icon"
+									alt="Telegram"
+							/></a>
 
-      <script>        
-        if (window.innerWidth <= 768) {
-          const link = document.querySelector('.navbar__text-style');
-          link.textContent = 'Prijevoz za Njemačku'; 
-        }
-      </script>  <!--не забыть убрать потом-->
-      
-      <ul class="dropdown__content">
-        <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Crna Gora</a></li>
-        <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Hrvatska</a></li>
-        <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Srbija</a></li>
-        <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Slovenija</a></li>
-        <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Avstrija</a></li>
-        
-      </ul>
-    </li>
-    <li><a href="#" class="navbar__text">Kontakt</a></li>
-  </ul>
-</nav>
+							<a href="#" target="_blank" class="massenger__link"
+								><img
+									src="./images/Social_Icons/square/WhatsApp.svg"
+									class="social__icon"
+									alt="WhatsApp"
+							/></a>
 
-  </section>
-  </header>
+							<a href="#" target="_blank" class="massenger__link"
+								><img
+									src="./images/Social_Icons/square/Viber.svg"
+									class="social__icon"
+									alt="Viber"
+							/></a>
+						</div>
+					</div>
+				</div>
 
-  <main class="content">
-    <section class="banner">
-       <div class="banner__main">
-      <h1 class="banner__text">TRANSFER, EXKURSIJE, PREVOZ PUTNIKA ZA NEMAČKU</h1>
-      <a class="contact" href="#">(+382)69738599</a>
-          <div class="massenger__links-banner">
-            <a href="#" target="_blank" class="massenger__link-banner"><img src="./images/Social_Icons/square/Telegram.svg"
-              class="social__icon" alt="Telegram" /></a>
-          
-          <a href="#" target="_blank" class="massenger__link-banner"><img src="./images/Social_Icons/square/WhatsApp.svg"
-              class="social__icon" alt="WhatsApp" /></a>
-          
-          <a href="#" target="_blank" class="massenger__link-banner"><img src="./images/Social_Icons/square/Viber.svg"
-              class="social__icon" alt="Viber" /></a>
-             </div>              
-</div>
+				<div class="header__bottom">
+					<img
+						class="header__bottom-logo"
+						src="./images/icons8-микроавтобус-pastel-glyph-96.png"
+						alt="Logo"
+					/>
 
-<div class="banner__timetable">
-  <p class="banner__timetable-text">POLASCI IZ SRBIJE - UTORAK</p>
-  <p class="banner__timetable-text">POLASCI IZ NEMAČKE – ČETVRTAK</p>
-</div>
+					<nav class="navbar">
+						<ul class="menu">
+							<li class="dropdown">
+								<a href="#" class="navbar__text">Transfer</a>
+								<ul class="dropdown__content">
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Podgorica</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Tivat</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Dubrovnik</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Priština</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Beograd</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Tirana</a
+										>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link"
+											>aerodrom Sarajevo</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="navbar__text">Exkursje</a>
+								<ul class="dropdown__content">
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Crna Gora</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Albanija</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Srbija</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Hrvatska</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Bosna</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="navbar__text navbar__text-style"
+									>Prevoz putnika za Nemačku</a
+								>
 
-    </section>
+								<ul class="dropdown__content">
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Crna Gora</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Hrvatska</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Srbija</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Slovenija</a>
+									</li>
+									<li class="dropdown__content-item">
+										<a href="#" class="dropdown__content-link">Avstrija</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#" class="navbar__text">Kontakt</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
 
-    <section class="service">
-        <div class="services__description">
-          <h2 class="services__description-main">POTREBAN VAM JE KOMBI PREVOZ ZA NEMAČKU DO GRADOVA?</h2>
-          <h3 class="services__description-mainoffer">POVOLJNO, BRZO, SIGURNO I UDOBNO VAS VOZIMO SA ADRESE NA ADRESU (OD
-          VRATA DO VRATA)</h3>
-          <ul class="services__menu">
-            <li class="services__menu-item">DVA ISKUSNA PROFESIONALNA VOZAČA</li>
-            <li class="services__menu-item">WI FI TOKOM CELOG PUTA</li>
-            <li class="services__menu-item">FREE KAFA I PIĆE</li>
-            <li class="services__menu-item">DVA KOFERA FREE</li>
-            <li class="services__menu-item">KLIMATIZOVANA VOZILA</li>
-            <li class="services__menu-item">PAUZE KADA VI TO POŽELITE</li>
-          </ul>
-        </div>
+		<main class="content">
+			<section class="banner">
+				<div class="banner__main">
+					<h1 class="banner__text">
+						TRANSFER, EXKURSIJE, PREVOZ PUTNIKA ZA NEMAČKU
+					</h1>
+					<a class="contact" href="#">(+382)69738599</a>
+					<div class="massenger__links-banner">
+						<a href="#" target="_blank" class="massenger__link-banner"
+							><img
+								src="./images/Social_Icons/square/Telegram.svg"
+								class="social__icon"
+								alt="Telegram"
+						/></a>
 
-        <div class="service__map">
-          <iframe class="service__map-iframe"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9477322.573195303!2d14.284202321715696!3d46.39742029853047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1726455038369!5m2!1sru!2s"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
-    
-  </main>
+						<a href="#" target="_blank" class="massenger__link-banner"
+							><img
+								src="./images/Social_Icons/square/WhatsApp.svg"
+								class="social__icon"
+								alt="WhatsApp"
+						/></a>
 
-  <footer class="footer">
-    <section class="footer__top">
-    
-      <div class="footer__massenger-links">      
-        <a href="#" target="_blank" class="footer__massenger-link"><img src="./images/Social_Icons/square/Telegram.svg"
-            class="footer__social-icon" alt="Telegram" /></a>      
-        <a href="#" target="_blank" class="footer__massenger-link"><img src="./images/Social_Icons/square/WhatsApp.svg"
-            class="footer__social-icon" alt="WhatsApp" /></a>      
-        <a href="#" target="_blank" class="footer__massenger-link"><img src="./images/Social_Icons/square/Viber.svg"
-            class="footer__social-icon" alt="Viber" /></a>      
-      </div>
-  <nav class="footer__navbar">
-    <ul class="footer__menu">
-      <li class="footer__menu-dropdown"><a href="#" class="footer__navbar-text">Transfer</a>
-        
-      </li>
-      <li class="footer__menu-dropdown"><a href="#" class="footer__navbar-text">Exkursje</a>
-        
-      </li>
-      <li class="footer__menu-dropdown">
-        <a href="#" class="footer__navbar-text">Prevoz putnika za Nemačku</a>
-        
-      </li>
-      <li><a href="#" href="#" class="footer__navbar-text">Kontakt</a></li>
-    </ul>
-  </nav>
+						<a href="#" target="_blank" class="massenger__link-banner"
+							><img
+								src="./images/Social_Icons/square/Viber.svg"
+								class="social__icon"
+								alt="Viber"
+						/></a>
+					</div>
+				</div>
 
-  <img class="footer__logo" src="./images/icons8-микроавтобус-pastel-glyph-96.png" alt="Logo" />
+				<div class="banner__timetable">
+					<p class="banner__timetable-text">POLASCI IZ SRBIJE - UTORAK</p>
+					<p class="banner__timetable-text">POLASCI IZ NEMAČKE – ČETVRTAK</p>
+				</div>
+			</section>
 
+			<section class="service">
+				<div class="services__description">
+					<h2 class="services__description-main">
+						POTREBAN VAM JE KOMBI PREVOZ ZA NEMAČKU DO GRADOVA?
+					</h2>
+					<h3 class="services__description-mainoffer">
+						POVOLJNO, BRZO, SIGURNO I UDOBNO VAS VOZIMO SA ADRESE NA ADRESU (OD
+						VRATA DO VRATA)
+					</h3>
+					<ul class="services__menu">
+						<li class="services__menu-item">
+							DVA ISKUSNA PROFESIONALNA VOZAČA
+						</li>
+						<li class="services__menu-item">WI FI TOKOM CELOG PUTA</li>
+						<li class="services__menu-item">FREE KAFA I PIĆE</li>
+						<li class="services__menu-item">DVA KOFERA FREE</li>
+						<li class="services__menu-item">KLIMATIZOVANA VOZILA</li>
+						<li class="services__menu-item">PAUZE KADA VI TO POŽELITE</li>
+					</ul>
+				</div>
 
-</section>
-    <section class="footer__bottom">
-      <p class="footer__copyright">&#169; 2024. Arien</p>
-    </section>
-  </footer>
-</body>
+				<div class="service__map">
+					<iframe
+						class="service__map-iframe"
+						src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9477322.573195303!2d14.284202321715696!3d46.39742029853047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1726455038369!5m2!1sru!2s"
+						width="600"
+						height="450"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+				</div>
+			</section>
+		</main>
 
+		<footer class="footer">
+			<section class="footer__top">
+				<div class="footer__massenger-links">
+					<a href="#" target="_blank" class="footer__massenger-link"
+						><img
+							src="./images/Social_Icons/square/Telegram.svg"
+							class="footer__social-icon"
+							alt="Telegram"
+					/></a>
+					<a href="#" target="_blank" class="footer__massenger-link"
+						><img
+							src="./images/Social_Icons/square/WhatsApp.svg"
+							class="footer__social-icon"
+							alt="WhatsApp"
+					/></a>
+					<a href="#" target="_blank" class="footer__massenger-link"
+						><img
+							src="./images/Social_Icons/square/Viber.svg"
+							class="footer__social-icon"
+							alt="Viber"
+					/></a>
+				</div>
+				<nav class="footer__navbar">
+					<ul class="footer__menu">
+						<li class="footer__menu-dropdown">
+							<a href="#" class="footer__navbar-text">Transfer</a>
+						</li>
+						<li class="footer__menu-dropdown">
+							<a href="#" class="footer__navbar-text">Exkursje</a>
+						</li>
+						<li class="footer__menu-dropdown">
+							<a href="#" class="footer__navbar-text"
+								>Prevoz putnika za Nemačku</a
+							>
+						</li>
+						<li>
+							<a href="#" href="#" class="footer__navbar-text">Kontakt</a>
+						</li>
+					</ul>
+				</nav>
+
+				<img
+					class="footer__logo"
+					src="./images/icons8-микроавтобус-pastel-glyph-96.png"
+					alt="Logo"
+				/>
+			</section>
+			<section class="footer__bottom">
+				<p class="footer__copyright">&#169; 2024. Arien</p>
+			</section>
+		</footer>
+	</body>
 </html>
