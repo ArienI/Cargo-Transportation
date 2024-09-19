@@ -54,45 +54,46 @@
 <body class="page">
 
   <header class="header">
-
-    <div class="header__top-section">
-      <div class="header__top">
-      <div class="language__selector">
+<div class="header__line">
+    <div class="header__top">
+      
+      <div class="header__top-language  language">
         <button class="language__toggle" aria-label="Promeniti jezik">Jezik</button>
-        <ul class="header__links">
-          <li><a href="#" class="header__lang-link  header__lang-link_active" target="_blank" aria-label="Srpski">Sr</a></li>
-          <li><a href="#" class="header__lang-link " target="_blank" aria-label="Engleski">En</a></li>
-          <li><a href="#" class="header__lang-link " target="_blank" aria-label="Nemački">De</a></li>
-          <li><a href="#" class="header__lang-link " target="_blank" aria-label="Francuski">Fr</a></li>
-          <li><a href="#" class="header__lang-link " target="_blank" aria-label="Turski">Tr</a></li>
-          <li><a href="#" class="header__lang-link " target="_blank" aria-label="Albansk">Sq</a></li>
+        <ul class="language__links">
+          <li><a href="#" class="language__link  language__link-active" target="_blank" aria-label="Srpski">Sr</a></li>
+          <li><a href="#" class="language__link " target="_blank" aria-label="Engleski">En</a></li>
+          <li><a href="#" class="language__link " target="_blank" aria-label="Nemački">De</a></li>
+          <li><a href="#" class="language__link " target="_blank" aria-label="Francuski">Fr</a></li>
+          <li><a href="#" class="language__link " target="_blank" aria-label="Turski">Tr</a></li>
+          <li><a href="#" class="language__link " target="_blank" aria-label="Albansk">Sq</a></li>
           <li>
-            <a href="#" class="header__lang-link" target="_blank" aria-label="Ruski">Ru</a>
+            <a href="#" class="language__link" target="_blank" aria-label="Ruski">Ru</a>
           </li>          
         </ul>        
       </div>
 
-      <div class="massenger">
+      <div class="header__top-massenger massenger">
 <div class="massenger__links">
   
-    <a href="#" target="_blank" class="massenger__link" aria-label="Otvoriti Telegram"><img src="./images/Social_Icons/square/Telegram.svg" class="social__icon"
+    <a href="#" target="_blank" class="massenger__links-link massenger__social" aria-label="Otvoriti Telegram"><img src="./images/Social_Icons/square/Telegram.svg" class="massenger__social-icon"
         alt="Telegram" /></a>
   
-    <a href="#" target="_blank" class="massenger__link" aria-label="Otvoriti WhatsApp"><img src="./images/Social_Icons/square/WhatsApp.svg" class="social__icon" alt="WhatsApp" /></a>
+    <a href="#" target="_blank" class="massenger__links-link massenger__social" aria-label="Otvoriti WhatsApp"><img src="./images/Social_Icons/square/WhatsApp.svg" class="massenger__social-icon" alt="WhatsApp" /></a>
  
-    <a href="#" target="_blank" class="massenger__link" aria-label="Otvoriti Viber"><img src="./images/Social_Icons/square/Viber.svg" class="social__icon" alt="Viber" /></a>
+    <a href="#" target="_blank" class="massenger__links-link massenger__social" aria-label="Otvoriti Viber"><img src="./images/Social_Icons/square/Viber.svg" class="massenger__social-icon" alt="Viber" /></a>
   
 </div>
       </div>
-      </div>
+      
+    </div>
     </div>
     
     <section class="header__bottom">
    <img class="header__bottom-logo" src="./images/icons8-микроавтобус-pastel-glyph-96.png" alt="Logo" />
 
-<nav class="navbar">
-  <ul class="menu">
-    <li class="dropdown"><a href="#" class="navbar__text">Transfer</a>
+<nav class="header__bottom-navbar navbar">
+  <ul class="navbar__menu">
+    <li class="navbar__menu-dropdown dropdown"><a href="#" class="dropdown__text">Transfer</a>
     <ul class="dropdown__content">
       <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Podgorica</a></li>
       <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Tivat</a></li>
@@ -102,7 +103,7 @@
       <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Tirana</a></li>
       <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">aerodrom Sarajevo</a></li>     
     </ul></li>
-    <li class="dropdown"><a href="#" class="navbar__text">Exkursje</a>
+    <li class="navbar__menu-dropdown dropdown"><a href="#" class="dropdown__text">Exkursje</a>
     <ul class="dropdown__content">
       <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Crna Gora</a></li>
       <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Albanija</a></li>
@@ -111,8 +112,8 @@
       <li class="dropdown__content-item"><a href="#" class="dropdown__content-link">Bosna</a></li>
       
     </ul></li>
-    <li class="dropdown">
-      <a href="#" class="navbar__text navbar__text-style">Prevoz putnika za Nemačku</a>
+    <li class="navbar__menu-dropdown dropdown">
+      <a href="#" class="dropdown__text navbar__text-style">Prevoz putnika za Nemačku</a>
 
       <script>        
         if (window.innerWidth <= 768) {
@@ -130,7 +131,7 @@
         
       </ul>
     </li>
-    <li><a href="#" class="navbar__text">Kontakt</a></li>
+    <li class="navbar__menu-dropdown dropdown"><a href="#" class="dropdown__text">Kontakt</a></li>
   </ul>
 </nav>
 
@@ -138,19 +139,19 @@
   </header>
 
   <main class="content">
-    <section class="banner">
+    <section class="content-banner banner">
        <div class="banner__main">
-      <h1 class="banner__text">TRANSFER, EXKURSIJE, PREVOZ PUTNIKA ZA NEMAČKU</h1>
-      <a class="contact" href="#">(+382)69738599</a>
-          <div class="massenger__links-banner">
-            <a href="#" target="_blank" class="massenger__link-banner"><img src="./images/Social_Icons/square/Telegram.svg"
-              class="social__icon" alt="Telegram" /></a>
+      <h1 class="banner__main-text">TRANSFER, EXKURSIJE, PREVOZ PUTNIKA ZA NEMAČKU</h1>
+      <a class="banner__main-contact" href="#">(+382)69738599</a>
+          <div class="banner__main-massenger massenger">
+            <a href="#" target="_blank" class="massenger__link"><img src="./images/Social_Icons/square/Telegram.svg"
+              class="massenger__link-icon" alt="Telegram" /></a>
           
-          <a href="#" target="_blank" class="massenger__link-banner"><img src="./images/Social_Icons/square/WhatsApp.svg"
-              class="social__icon" alt="WhatsApp" /></a>
+          <a href="#" target="_blank" class="massenger__link"><img src="./images/Social_Icons/square/WhatsApp.svg"
+              class="massenger__link-icon" alt="WhatsApp" /></a>
           
-          <a href="#" target="_blank" class="massenger__link-banner"><img src="./images/Social_Icons/square/Viber.svg"
-              class="social__icon" alt="Viber" /></a>
+          <a href="#" target="_blank" class="massenger__link"><img src="./images/Social_Icons/square/Viber.svg"
+              class="massenger__link-icon" alt="Viber" /></a>
              </div>              
 </div>
 
@@ -187,25 +188,27 @@
   </main>
 
   <footer class="footer">
-    <section class="footer__top">
+
+    <div class="footer__line">
+    <div class="footer__top">
     
-      <div class="footer__massenger-links">      
+      <div class="footer__top-massengers footer__massenger">      
         <a href="#" target="_blank" class="footer__massenger-link" aria-label="Otvoriti Telegram"><img src="./images/Social_Icons/square/Telegram.svg"
-            class="footer__social-icon" alt="Telegram" /></a>      
+            class="footer__massenger-icon" alt="Telegram" /></a>      
         <a href="#" target="_blank" class="footer__massenger-link" aria-label="Otvoriti WhatsApp"><img src="./images/Social_Icons/square/WhatsApp.svg"
-            class="footer__social-icon" alt="WhatsApp" /></a>      
+            class="footer__massenger-icon" alt="WhatsApp" /></a>      
         <a href="#" target="_blank" class="footer__massenger-link" aria-label="Otvoriti Viber"><img src="./images/Social_Icons/square/Viber.svg"
-            class="footer__social-icon" alt="Viber" /></a>      
+            class="footer__massenger-icon" alt="Viber" /></a>      
       </div>
-  <nav class="footer__navbar">
-    <ul class="footer__menu">
-      <li class="footer__menu-dropdown"><a href="#" class="footer__navbar-text" aria-label="Izabrati transfer">Transfer</a>
+  <nav class="footer__top-navbar footer__navbar">
+    <ul class="footer__navbar-menu">
+      <li class="footer__navbar-link"><a href="#" class="footer__navbar-text" aria-label="Izabrati transfer">Transfer</a>
         
       </li>
-      <li class="footer__menu-dropdown"><a href="#" class="footer__navbar-text" aria-label="Izabrati ekskurziju">Exkursje</a>
+      <li class="footer__navbar-link"><a href="#" class="footer__navbar-text" aria-label="Izabrati ekskurziju">Exkursje</a>
         
       </li>
-      <li class="footer__menu-dropdown">
+      <li class="footer__navbar-link">
         <a href="#" class="footer__navbar-text" aria-label="Izabrati prevoz putnika iz Nemačke">Prevoz putnika za Nemačku</a>
         
       </li>
@@ -213,13 +216,13 @@
     </ul>
   </nav>
 
-  <img class="footer__logo" src="./images/icons8-микроавтобус-pastel-glyph-96.png" alt="Logo" />
+  <img class="footer__top-logo" src="./images/icons8-микроавтобус-pastel-glyph-96.png" alt="Logo" />
 
-
-</section>
-    <section class="footer__bottom">
-      <p class="footer__copyright">&#169; 2024. Arien</p>
-    </section>
+</div>
+</div>
+    <div class="footer__bottom">
+      <p class="footer__bottom-copyright">&#169; 2024. Arien</p>
+    </div>
   </footer>
 </body>
 
