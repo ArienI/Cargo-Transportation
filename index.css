@@ -253,8 +253,9 @@
   text-decoration: none;
   background-color: #f76c6c;
   border: 2px solid #a8d0e6;
-  padding: 10px 20px;
   border-radius: 8px;
+  padding: 10px 20px;
+
   display: inline-block;
 }
 
@@ -472,6 +473,7 @@
   }
 
   .massenger__links {
+    height: 100%;
     display: flex;
     gap: 10px;
     padding-right: 20px;
