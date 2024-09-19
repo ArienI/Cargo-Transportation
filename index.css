@@ -332,13 +332,11 @@
 
 .footer {
   width: 100%;
-  padding-top: 20px;
-  text-align: center;
-  background-color: #24305e;
+  padding: 0;
   box-sizing: border-box;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  background-color: #24305e;
 }
 
 .footer__line {
@@ -394,13 +392,12 @@
 }
 
 .footer__top-logo {
-  width: 60px;
-  height: auto;
+  height: 100%;
 }
 
 .footer__bottom {
   width: 100%;
-  padding: 20px 0;
+  padding: 0;
   color: #fff;
   text-align: end;
 }
