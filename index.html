@@ -209,7 +209,13 @@
         
       </li>
       <li class="footer__navbar-link">
-        <a href="#" class="footer__navbar-text" aria-label="Izabrati prevoz putnika iz Nemačke">Prevoz putnika za Nemačku</a>
+        <a href="#" class="footer__navbar-text footer__text-style" aria-label="Izabrati prevoz putnika iz Nemačke">Prevoz putnika za Nemačku</a>
+        <script>
+          if (window.innerWidth <= 768) {
+            const link = document.querySelector('.footer__text-style');
+            link.textContent = 'Prijevoz za Njemačku';
+          }
+        </script> <!-- убрать -->
         
       </li>
       <li><a href="#" class="footer__navbar-text" aria-label="Preći na stranicu kontakata">Kontakt</a></li>
