@@ -1,0 +1,18 @@
+:root {
+  --white-color: #FFFFFF;
+  --black-color: #24305e;
+  --light-blue-color: #a8d0e6;
+  --error-color: var(--red-color);
+
+  // other vars
+  --min-site-width: 375px;
+  --max-site-width: 1600px;
+}
+
+$sm: 540px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1600px;
+$fhd: 1920px;
+$main-font: "Open Sans";
