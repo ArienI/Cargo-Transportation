@@ -1,6 +1,6 @@
 .site-header {
   color: #ffffff;
-  background-color: var(--black-color);
+  background-color: var(--dark-blue-color);
 
   &__top {
     padding-top: 10px;
@@ -32,6 +32,10 @@
 
       color: #f76c6c;
     }
+
+    &:hover {
+      color: var(--light-yellow-color);
+    }
   }
 
   &__social-list {
@@ -49,6 +53,10 @@
     display: inline-flex;
     width: 40px;
     height: 40px;
+
+    &:hover {
+      filter: brightness(0.7);
+    }
   }
 
   &__bottom-wrapper {

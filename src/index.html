@@ -3,25 +3,15 @@
 
 <head>
   @include('html/head/index.html')
-  <title>Список страниц</title>
+  <title>Prevoz</title>
 </head>
 
 <body>
+  @include('html/header/header.html')
   <main>
-    <div class="container">
-      <h1>Sitemap</h1>
-      <p>
-        <a href="#"
-           target="_blank"
-           rel="nofollow noreferer noopener">Макет</a>
-      </p>
-      <ol>
-        <li>
-          <a href="page-main.html">Страница "Главная"</a>
-        </li>
-      </ol>
-    </div>
+    @include('html/main/index.html')
   </main>
+  @include('html/footer/footer.html')
 </body>
 
 </html>

@@ -5,8 +5,14 @@
   display: flex;
   flex-wrap: wrap;
 
+
   &>li {
     position: relative;
+    margin-right: 20px;
+
+    &:hover {
+      color: var(--light-yellow-color);
+    }
 
     &:hover,
     &:focus-within {
@@ -21,7 +27,13 @@
     font-size: 24px;
     line-height: 28px;
     margin-left: 10px;
+
+    &:hover {
+      color: var(--orange-color);
+    }
   }
+
+
 
   &__dropdown {
     @include anim(drop, 0.4s);
@@ -33,9 +45,10 @@
     position: absolute;
     top: 100%;
     left: 0;
-    width: 200px;
-    color: var(--black-color);
-    background-color: var(--white-color);
+    width: 300px;
+    color: var(--dark-blue-color);
+    background-color: var(--light-yellow-color);
+    border-radius: 8px;
 
     & a {
       display: inline-block;
