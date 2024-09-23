@@ -54,11 +54,13 @@
       color: var(--white-color);
       text-decoration: none;
       margin-right: 10px;
+
+      &:hover {
+        color: var(--light-yellow-color);
+      }
     }
 
-    &:hover {
-      color: var(--light-yellow-color);
-    }
+
 
     // hover не работает почему-то 
 
