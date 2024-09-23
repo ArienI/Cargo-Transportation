@@ -5,7 +5,7 @@
   align-items: center;
   box-sizing: border-box;
   padding: 0;
-  background-color: var(--dark-blue-color);
+  background-color: var(--light-blue-color);
   color: #ffffff;
 
   .main-banner {
@@ -64,13 +64,13 @@
 
   &__timetable {
     width: 100%;
-
+    background-color: var(--dark-blue-color);
     color: #fff;
     padding: 15px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom-right-radius: 50px; //потерялся
+    border-bottom-right-radius: 50px;
 
     &__text {
       font-size: 18px;
