@@ -30,7 +30,7 @@
     &--active {
       --link-line: currentColor;
 
-      color: #f76c6c;
+      color: var(--orange-color);
     }
 
     &:hover {
