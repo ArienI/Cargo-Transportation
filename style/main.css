@@ -1,7 +1,6 @@
 @charset "UTF-8";
 :root {
   --dark-blue-color: #24305e;
-  --error-color: var(--red-color);
   --light-blue-color: #a8d0e6;
   --light-yellow-color: #f8e9a1;
   --max-site-width: 1600px;
@@ -179,30 +178,6 @@ a {
   80% {
     -webkit-transform: translateX(7px);
             transform: translateX(7px);
-  }
-}
-@-webkit-keyframes drop {
-  0% {
-    -webkit-transform: translateY(-10%);
-            transform: translateY(-10%);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes drop {
-  0% {
-    -webkit-transform: translateY(-10%);
-            transform: translateY(-10%);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
   }
 }
 .site__container {
@@ -441,7 +416,7 @@ a {
   color: var(--white-color);
 }
 .site-header__lang-link--active {
-  color: #f76c6c;
+  color: var(--orange-color);
 
   --link-line: currentColor;
 }
@@ -627,7 +602,7 @@ a {
 
   text-align: center;
 
-  background-image: url("../../../img/IMG_6694.jpeg");
+  background-image: url("../img/IMG_6694.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
