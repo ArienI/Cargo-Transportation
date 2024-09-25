@@ -19,25 +19,26 @@
           <div class="site-header__top-wrapper">
             <ul class="site-header__lang-list">
               <li>
-                <a class="site-header__lang-link site-header__lang-link--active" href="#">Sr</a>
+                <a class="site-header__lang-link site-header__lang-link--active" href="#" target="_blank"
+                  aria-label="Srpski">Sr</a>
               </li>
               <li>
-                <a class="site-header__lang-link" href="index-en.html">En</a>
+                <a class="site-header__lang-link" href="index-en.html" target="_blank" aria-label="Engleski">En</a>
               </li>
               <li>
-                <a class="site-header__lang-link" href="/De">De</a>
+                <a class="site-header__lang-link" href="index-de.html" target="_blank" aria-label="Nemački">De</a>
               </li>
               <li>
-                <a class="site-header__lang-link" href="/Fr">Fr</a>
+                <a class="site-header__lang-link" href="index-fr.html" target="_blank" aria-label="Francuski">Fr</a>
               </li>
               <li>
-                <a class="site-header__lang-link" href="/Tr">Tr</a>
+                <a class="site-header__lang-link" href="index-tr.html" target="_blank" aria-label="Turski">Tr</a>
               </li>
               <li>
-                <a class="site-header__lang-link" href="/Sq">Sq</a>
+                <a class="site-header__lang-link" href="index-sq.html" target="_blank" aria-label="Albansk">Sq</a>
               </li>
               <li>
-                <a class="site-header__lang-link" href="index-ru.html">Ru</a>
+                <a class="site-header__lang-link" href="index-ru.html" target="_blank" aria-label="Ruski">Ru</a>
               </li>
             </ul>
             <ul class="site-header__social-list ">
@@ -81,7 +82,15 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Prevoz putnika za Nemačku</a>
+                  <a href="#" class="navbar__text-style">Prevoz putnika za Nemačku</a>
+
+                  <script>
+                    if (window.innerWidth <= 768) {
+                      const link = document.querySelector('.navbar__text-style');
+                      link.textContent = 'Prijevoz za Njemačku';
+                    }
+                  </script>
+
                   <ul class="header-menu__dropdown">
                     <li><a href="#">Crna Gora</a></li>
                     <li><a href="#">Hrvatska</a></li>
@@ -166,7 +175,14 @@
 
                 </li>
                 <li>
-                  <a href="#">Prevoz putnika za Nemačku</a>
+                  <a href="#" class="footer__text-style">Prevoz putnika za Nemačku</a>
+
+                  <script>
+                    if (window.innerWidth <= 768) {
+                      const link = document.querySelector('.footer__text-style');
+                      link.textContent = 'Prijevoz za Njemačku';
+                    }
+                  </script>
 
                 </li>
                 <li>
