@@ -13,8 +13,7 @@ import {
 const initSiteSettings = () => {
   iosVhFix();
   initScrollObserver();
-  new SmoothScroll( 'a[href*="#"]', smoothScrollConfig );
-  [ '[data-gallery]' ].map( ( item ) => baguetteBox.run( item ) );
+  new SmoothScroll('a[href*="#"]', smoothScrollConfig);
 };
 
 export {

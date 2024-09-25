@@ -5,6 +5,7 @@ body {
   font-family: $main-font, Arial, Helvetica, sans-serif;
   color: #000000;
   background-color: #ffffff;
+  background-color: var(--light-blue-color);
 }
 
 a {
