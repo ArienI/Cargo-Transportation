@@ -307,6 +307,13 @@ a {
   width: 96px;
   height: 96px;
 }
+.site-header .site-header__lang-select {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+
+  font-size: 16px;
+}
 
 .header-menu {
   display: flex;
