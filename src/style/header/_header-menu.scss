@@ -5,7 +5,6 @@
   display: flex;
   flex-wrap: wrap;
 
-
   &>li {
     position: relative;
     margin-right: 20px;
@@ -33,11 +32,8 @@
     }
   }
 
-
-
   &__dropdown {
     @include anim(drop, 0.4s);
-
     display: none;
     margin: 0;
     padding: 0;
@@ -54,6 +50,27 @@
     & a {
       display: inline-block;
       padding: 10px 4px;
+    }
+  }
+
+  @include media-max($lg) {
+    .header-menu {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      background-color: antiquewhite;
+    }
+
+    // не работает
+
+    .navbar__text-style {
+      visibility: hidden;
+    }
+
+    .navbar__text-style::after {
+      content: 'Prijevoz za Njemačku';
+      visibility: visible;
+      color: aqua;
     }
   }
 }
