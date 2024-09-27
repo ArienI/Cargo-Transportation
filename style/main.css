@@ -374,6 +374,26 @@ a {
   display: inline-block;
   padding: 10px 4px;
 }
+@media (max-width: 992px) {
+  .header-menu .header-menu {
+    display: grid;
+
+    background-color: antiquewhite;
+
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header-menu .navbar__text-style {
+    visibility: hidden;
+  }
+  .header-menu .navbar__text-style::after {
+    content: "Prijevoz za Njemačku";
+
+    color: aqua;
+
+    visibility: visible;
+  }
+}
 
 .site-footer {
   color: #ffffff;
@@ -439,6 +459,23 @@ a {
   margin: 0;
 
   text-align: end;
+}
+@media (max-width: 992px) {
+  .site-footer__menu {
+    flex-direction: column;
+
+    background-color: cornflowerblue;
+  }
+  .site-footer .footer__text-style {
+    visibility: hidden;
+  }
+  .site-footer .footer__text-style::after {
+    content: "Prijevoz za Njemačku";
+
+    color: rgb(0, 255, 170);
+
+    visibility: visible;
+  }
 }
 
 .site-main {
@@ -586,4 +623,28 @@ a {
 
   border: 0;
   border-radius: 8px;
+}
+@media (max-width: 992px) {
+  .site-main .timetable__text {
+    font-size: 16px;
+    color: rgb(112, 243, 225);
+  }
+}
+@media (max-width: 768px) {
+  .site-main .timetable__text {
+    font-size: 14px;
+    color: greenyellow;
+  }
+}
+@media (max-width: 540px) {
+  .site-main__timetable {
+    display: block;
+
+    background-color: aqua;
+  }
+  .site-main .timetable__text {
+    padding-left: 20px;
+
+    color: rgb(243, 157, 204);
+  }
 }
