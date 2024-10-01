@@ -1,8 +1,8 @@
 @charset "UTF-8";
 :root {
   --dark-gray-color: #4f6457;
-  --gray-color: #636464;
-  --light-blue-color: #8a8a4571;
+  --gray-color: #7d8080;
+  --light-blue-color: #0749786e;
   --light-yellow-color: #f8d678;
   --max-site-width: 1600px;
   --min-site-width: 375px;
@@ -242,6 +242,14 @@ a {
   }
 }
 
+.social-link {
+  display: inline-flex;
+}
+.social-link:hover {
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+}
+
 .site-header {
   color: #ffffff;
 
@@ -268,7 +276,7 @@ a {
 .site-header__lang-link {
   margin-right: 10px;
 
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   color: var(--white-color);
 }
@@ -289,15 +297,6 @@ a {
 }
 .site-header__social-list li {
   margin-left: 10px;
-}
-.site-header__social-link {
-  display: inline-flex;
-  width: 40px;
-  height: 40px;
-}
-.site-header__social-link:hover {
-  -webkit-filter: brightness(0.7);
-          filter: brightness(0.7);
 }
 .site-header__bottom-wrapper {
   display: flex;
@@ -335,7 +334,7 @@ a {
 .header-menu a {
   margin-left: 10px;
 
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   color: inherit;
 }
@@ -389,7 +388,6 @@ a {
 }
 .site-footer__social-list {
   display: flex;
-  margin: 0;
   padding: 0;
 
   list-style-type: none;
@@ -399,8 +397,6 @@ a {
 }
 .site-footer__social-link {
   display: inline-flex;
-  width: 40px;
-  height: 40px;
 }
 .site-footer__social-link:hover {
   -webkit-filter: brightness(0.7);
@@ -495,6 +491,7 @@ a {
 .site-main .main-banner__content .banner-content__massenger {
   display: flex;
   justify-content: center;
+  padding: 0;
 
   list-style-type: none;
 
@@ -516,8 +513,6 @@ a {
 
   background-image: url("../img/3.webp");
   border-bottom-right-radius: 50px;
-  -o-border-image: fill 0 linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-     border-image: fill 0 linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   cursor: default;
 }
 .site-main__service {
@@ -577,7 +572,8 @@ a {
   flex: 1;
 }
 .site-main__service .service__map-iframe {
-  width: 95%;
+  width: 100%;
+  padding: 0;
 
   border: 0;
   border-radius: 8px;

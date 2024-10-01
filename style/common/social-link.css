@@ -1,0 +1,7 @@
+.social-link {
+  display: inline-flex;
+}
+.social-link:hover {
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+}
