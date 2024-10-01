@@ -1,8 +1,8 @@
 @charset "UTF-8";
 :root {
   --dark-gray-color: #4f6457;
-  --gray-color: #96afa3;
-  --light-blue-color: #75755ef3;
+  --gray-color: #636464;
+  --light-blue-color: #8a8a4571;
   --light-yellow-color: #f8d678;
   --max-site-width: 1600px;
   --min-site-width: 375px;
@@ -326,7 +326,7 @@ a {
   margin-right: 20px;
 }
 .header-menu > li:hover {
-  color: var(--dark-gray-color);
+  color: var(--white-color);
 }
 .header-menu > li:hover .header-menu__dropdown,
 .header-menu > li:focus-within .header-menu__dropdown {
@@ -528,7 +528,7 @@ a {
   width: 100%;
   padding-top: 20px;
 
-  color: var(--dark-gray-color);
+  color: var(--white-color);
 }
 .site-main__service .service-description {
   flex: 1;
