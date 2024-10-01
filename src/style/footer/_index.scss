@@ -66,23 +66,4 @@
     text-align: end;
     margin: 0;
   }
-
-  @include media-max($lg) {
-    &__menu {
-      flex-direction: column;
-      background-color: cornflowerblue;
-    }
-
-    .footer__text-style {
-      visibility: hidden;
-    }
-
-    .footer__text-style::after {
-      content: 'Prijevoz za Njemačku';
-      visibility: visible;
-      color: rgb(0, 255, 170);
-    }
-
-
-  }
 }
