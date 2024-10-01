@@ -1,0 +1,87 @@
+<header class="site__header site-header">
+  <div class="site-header__top">
+    <div class="container">
+      <div class="site-header__top-wrapper">
+        <ul class="site-header__lang-list">
+          <li>
+            <a class="site-header__lang-link site-header__lang-link--active" href="#" aria-label="Srpski">Sr</a>
+          </li>
+          <li>
+            <a class="site-header__lang-link" href="En" aria-label="Engleski">En</a>
+          </li>
+          <li>
+            <a class="site-header__lang-link" href="De" aria-label="Nemački">De</a>
+          </li>
+          <li>
+            <a class="site-header__lang-link" href="Fr" aria-label="Francuski">Fr</a>
+          </li>
+          <li>
+            <a class="site-header__lang-link" href="Tr" aria-label="Turski">Tr</a>
+          </li>
+          <li>
+            <a class="site-header__lang-link" href="Sq" aria-label="Albansk">Sq</a>
+          </li>
+          <li>
+            <a class="site-header__lang-link" href="Ru" aria-label="Ruski">Ru</a>
+          </li>
+        </ul>
+        <ul class="site-header__social-list ">
+          @include('../social-link/social-link.html', {icon: 'tg'})
+          @include('../social-link/social-link.html', {icon: 'wb'})
+          @include('../social-link/social-link.html', {icon: 'vb'})
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="site-header__bottom">
+    <div class="container">
+      <div class="site-header__bottom-wrapper">
+        <div class="site-header__logo">
+          <a href="#">
+            <img src="img/Logo.svg" width="96" height="96" alt="Limo">
+          </a>
+        </div>
+        <nav aria-label="Main Navigation" role="navigation">
+          <ul class="header-menu">
+            <li>
+              <a href="#">Transfer</a>
+              <ul class="header-menu__dropdown">
+                <li><a href="#">aerodrom Podgorica</a></li>
+                <li><a href="#">aerodrom Tivat</a></li>
+                <li><a href="#">aerodrom Dubrovnik</a></li>
+                <li><a href="#">aerodrom Priština</a></li>
+                <li><a href="#">aerodrom Beograd</a></li>
+                <li><a href="#">aerodrom Tirana</a></li>
+                <li><a href="#">aerodrom Sarajevo</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Exkursje</a>
+              <ul class="header-menu__dropdown">
+                <li><a href="#">Crna Gora</a></li>
+                <li><a href="#">Albanija</a></li>
+                <li><a href="#">Srbija</a></li>
+                <li><a href="#">Hrvatska</a></li>
+                <li><a href="#">Bosna i Hercegovina</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="navbar__text-style">Prevoz za Nemačku</a>
+
+
+
+              <ul class="header-menu__dropdown">
+                <li><a href="#">Crna Gora</a></li>
+                <li><a href="#">Hrvatska</a></li>
+                <li><a href="#">Srbija</a></li>
+                <li><a href="#">Slovenija</a></li>
+                <li><a href="#">Avstrija</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+</header>

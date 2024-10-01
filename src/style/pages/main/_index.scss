@@ -6,12 +6,14 @@
   box-sizing: border-box;
   padding: 0;
   color: #ffffff;
+  background-color: var(--gray-color);
 
   .main-banner {
     width: 100%;
 
     &__content {
-      background-image: url('../img/IMG_6694.webp');
+      height: 700px;
+      background-image: url('../img/image-30-09-24-07-02.webp');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -25,7 +27,7 @@
       overflow: hidden;
 
       .banner-content__text {
-        font-size: 36px;
+        font-size: 40px;
         margin-bottom: 20px;
         cursor: default;
         color: #fff;
@@ -59,7 +61,7 @@
 
   &__timetable {
     width: 100%;
-    background-color: var(--dark-blue-color);
+
     color: #fff;
     padding: 15px 0;
     display: flex;
@@ -67,6 +69,7 @@
     align-items: center;
     border-bottom-right-radius: 50px;
     cursor: default;
+    background-image: url('../img/3.webp');
 
     &__text {
       font-size: 18px;
@@ -84,7 +87,9 @@
     justify-content: space-evenly;
     padding-top: 20px;
     align-items: center;
-    color: var(--dark-blue-color);
+    color: var(--dark-gray-color);
+
+
 
     .service-description {
       flex: 1;
@@ -117,6 +122,7 @@
 
           &::before {
             content: '✔';
+            color: var(--orange-color);
             position: absolute;
             left: 0;
             top: 0;

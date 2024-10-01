@@ -10,7 +10,7 @@
     margin-right: 20px;
 
     &:hover {
-      color: var(--light-yellow-color);
+      color: var(--dark-gray-color);
     }
 
     &:hover,
@@ -43,7 +43,7 @@
     left: 0;
     width: 300px;
     color: var(--dark-blue-color);
-    background-color: var(--light-yellow-color);
+    background-color: var(--gray-color);
     border-radius: 8px;
     z-index: 2;
 

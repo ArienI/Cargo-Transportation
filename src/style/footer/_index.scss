@@ -1,10 +1,10 @@
 .site-footer {
   color: #ffffff;
-  background-color: var(--dark-blue-color);
+  background-color: var(--light-blue-color);
 
   &__top {
     padding-top: 10px;
-    border-bottom: 2px solid var(--light-blue-color);
+    border-bottom: 2px solid var(--light-yellow-color);
   }
 
   & &__top-wrapper {
