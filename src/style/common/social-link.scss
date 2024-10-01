@@ -1,0 +1,7 @@
+  .social-link {
+    display: inline-flex;
+
+    &:hover {
+      filter: brightness(0.7);
+    }
+  }

@@ -22,7 +22,7 @@
   }
 
   &__lang-link {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     color: var(--white-color);
     margin-right: 10px;
@@ -46,16 +46,6 @@
 
     & li {
       margin-left: 10px;
-    }
-  }
-
-  &__social-link {
-    display: inline-flex;
-    width: 40px;
-    height: 40px;
-
-    &:hover {
-      filter: brightness(0.7);
     }
   }
 
