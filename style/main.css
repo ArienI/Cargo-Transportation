@@ -1,8 +1,8 @@
 @charset "UTF-8";
 :root {
   --dark-gray-color: #4f6457;
-  --gray-color: #bdcac4;
-  --light-blue-color: #8c8d5569;
+  --gray-color: #96afa3;
+  --light-blue-color: #75755ef3;
   --light-yellow-color: #f8d678;
   --max-site-width: 1600px;
   --min-site-width: 375px;
@@ -304,10 +304,6 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.site-header__logo {
-  width: 96px;
-  height: 96px;
-}
 .site-header .site-header__lang-select {
   display: block;
   margin: 0 auto;
@@ -375,26 +371,6 @@ a {
   display: inline-block;
   padding: 10px 4px;
 }
-@media (max-width: 992px) {
-  .header-menu .header-menu {
-    display: grid;
-
-    background-color: antiquewhite;
-
-    gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .header-menu .navbar__text-style {
-    visibility: hidden;
-  }
-  .header-menu .navbar__text-style::after {
-    content: "Prijevoz za Njemačku";
-
-    color: aqua;
-
-    visibility: visible;
-  }
-}
 
 .site-footer {
   color: #ffffff;
@@ -461,30 +437,12 @@ a {
 
   text-align: end;
 }
-@media (max-width: 992px) {
-  .site-footer__menu {
-    flex-direction: column;
-
-    background-color: cornflowerblue;
-  }
-  .site-footer .footer__text-style {
-    visibility: hidden;
-  }
-  .site-footer .footer__text-style::after {
-    content: "Prijevoz za Njemačku";
-
-    color: rgb(0, 255, 170);
-
-    visibility: visible;
-  }
-}
 
 .site-main {
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  width: 100%;
   padding: 0;
 
   color: #ffffff;
@@ -553,20 +511,14 @@ a {
   width: 100%;
   padding: 15px 0;
 
+  font-size: 18px;
   color: #ffffff;
 
   background-image: url("../img/3.webp");
   border-bottom-right-radius: 50px;
+  -o-border-image: fill 0 linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+     border-image: fill 0 linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   cursor: default;
-}
-.site-main__timetable__text {
-  margin: 0;
-  padding: 10px 20px;
-
-  font-size: 18px;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-
-  border-radius: 5px;
 }
 .site-main__service {
   display: flex;
@@ -580,19 +532,19 @@ a {
 }
 .site-main__service .service-description {
   flex: 1;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 .site-main__service .service-description h2 {
   margin-bottom: 15px;
 
-  font-size: 24px;
+  font-size: 28px;
 
   cursor: default;
 }
 .site-main__service .service-description h3 {
   margin-bottom: 20px;
 
-  font-size: 20px;
+  font-size: 24px;
 
   cursor: default;
 }
@@ -630,27 +582,12 @@ a {
   border: 0;
   border-radius: 8px;
 }
-@media (max-width: 992px) {
-  .site-main .timetable__text {
-    font-size: 16px;
-    color: rgb(112, 243, 225);
-  }
+.site-main .definition {
+  cursor: default;
 }
-@media (max-width: 768px) {
-  .site-main .timetable__text {
-    font-size: 14px;
-    color: greenyellow;
-  }
+.site-main .definition h4 {
+  font-size: 20px;
 }
-@media (max-width: 540px) {
-  .site-main__timetable {
-    display: block;
-
-    background-color: aqua;
-  }
-  .site-main .timetable__text {
-    padding-left: 20px;
-
-    color: rgb(243, 157, 204);
-  }
+.site-main .definition p {
+  font-size: 16px;
 }
