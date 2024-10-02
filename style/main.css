@@ -4,7 +4,7 @@
   --dark-gray-color: #4f6457;
   --gray-color: #7d808096;
   --light-blue-color: #e8e9e065;
-  --light-yellow-color: #e0eba4;
+  --light-yellow-color: #eff5b8;
   --max-site-width: 1600px;
   --min-site-width: 375px;
   --orange-color: #f76c6c;
@@ -304,6 +304,10 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.site-header__logo {
+  width: 200px;
+  height: auto;
+}
 .site-header .site-header__lang-select {
   display: block;
   margin: 0 auto;
@@ -424,6 +428,10 @@ a {
 }
 .site-footer__menu a:hover {
   color: var(--orange-color);
+}
+.site-footer__logo {
+  width: 150px;
+  height: auto;
 }
 .site-footer__copyright {
   margin: 0;
