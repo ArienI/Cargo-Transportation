@@ -353,7 +353,7 @@ a {
   z-index: 2;
 
   display: none;
-  width: 300px;
+  width: 250px;
   margin: 0;
   padding: 0;
 
@@ -593,4 +593,9 @@ a {
 }
 .site-main .definition p {
   font-size: 16px;
+}
+@media (max-width: 540px) {
+  .site-main .main-banner__content {
+    height: 300px;
+  }
 }
