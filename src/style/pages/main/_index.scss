@@ -147,4 +147,12 @@
       font-size: 16px;
     }
   }
+
+  @include media-max($sm) {
+    .main-banner {
+      &__content {
+        height: 300px;
+      }
+    }
+  }
 }
