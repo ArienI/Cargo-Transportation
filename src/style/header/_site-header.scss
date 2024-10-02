@@ -55,6 +55,11 @@
     align-items: center;
   }
 
+  &__logo {
+    width: 200px;
+    height: auto;
+  }
+
   .site-header__lang-select {
     display: block;
     margin: 0 auto;
