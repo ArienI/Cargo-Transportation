@@ -1,6 +1,6 @@
 .site-header {
-  color: #ffffff;
-  background-color: var(--light-blue-color);
+  color: var('--black-color');
+  background-color: var(--white-color);
 
   &__top {
     padding-top: 10px;
@@ -24,7 +24,7 @@
   &__lang-link {
     font-size: 20px;
     line-height: 28px;
-    color: var(--white-color);
+    color: var(--black-color);
     margin-right: 10px;
 
     &--active {
@@ -34,7 +34,7 @@
     }
 
     &:hover {
-      color: var(--light-yellow-color);
+      color: var(--orange-color);
     }
   }
 

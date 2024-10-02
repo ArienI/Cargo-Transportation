@@ -5,7 +5,7 @@
   box-sizing: border-box;
   padding: 0;
   color: #ffffff;
-  background-color: var(--gray-color);
+  background-color: var(--light-blue-color);
 
   .main-banner {
     width: 100%;
@@ -62,7 +62,7 @@
   &__timetable {
     width: 100%;
     font-size: 18px;
-    color: #fff;
+    color: var(--white-color);
     padding: 15px 0;
     display: flex;
     justify-content: space-around;
@@ -74,13 +74,12 @@
   }
 
   &__service {
-    width: 100%;
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-top: 20px;
+    justify-content: space-between;
     align-items: center;
-    color: var(--white-color);
+    color: var(--black-color);
 
     .service-description {
       flex: 1;
@@ -90,12 +89,14 @@
         font-size: 28px;
         margin-bottom: 15px;
         cursor: default;
+        border-bottom: 2px solid var(--light-yellow-color);
       }
 
       & h3 {
         font-size: 24px;
         margin-bottom: 20px;
         cursor: default;
+        border-bottom: 2px solid var(--light-yellow-color);
       }
 
       &__menu {
@@ -139,6 +140,7 @@
 
     & h4 {
       font-size: 20px;
+      border-bottom: 2px solid var(--light-yellow-color);
     }
 
     & p {
