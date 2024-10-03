@@ -2,29 +2,34 @@
   <div class="site-header__top">
     <div class="container">
       <div class="site-header__top-wrapper">
-        <ul class="site-header__lang-list">
-          <li>
-            <a class="site-header__lang-link site-header__lang-link--active" href="#" aria-label="Srpski">Sr</a>
-          </li>
-          <li>
-            <a class="site-header__lang-link" href="En" aria-label="Engleski">En</a>
-          </li>
-          <li>
-            <a class="site-header__lang-link" href="De" aria-label="Nemački">De</a>
-          </li>
-          <li>
-            <a class="site-header__lang-link" href="Fr" aria-label="Francuski">Fr</a>
-          </li>
-          <li>
-            <a class="site-header__lang-link" href="Tr" aria-label="Turski">Tr</a>
-          </li>
-          <li>
-            <a class="site-header__lang-link" href="Sq" aria-label="Albansk">Sq</a>
-          </li>
-          <li>
-            <a class="site-header__lang-link" href="Ru" aria-label="Ruski">Ru</a>
-          </li>
-        </ul>
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-globe"></i>
+          </button>
+          <ul class="site-header__lang-list">
+            <li>
+              <a class="site-header__lang-link site-header__lang-link--active" href="#" aria-label="Srpski">Sr</a>
+            </li>
+            <li>
+              <a class="site-header__lang-link" href="En" aria-label="Engleski">En</a>
+            </li>
+            <li>
+              <a class="site-header__lang-link" href="De" aria-label="Nemački">De</a>
+            </li>
+            <li>
+              <a class="site-header__lang-link" href="Fr" aria-label="Francuski">Fr</a>
+            </li>
+            <li>
+              <a class="site-header__lang-link" href="Tr" aria-label="Turski">Tr</a>
+            </li>
+            <li>
+              <a class="site-header__lang-link" href="Sq" aria-label="Albansk">Sq</a>
+            </li>
+            <li>
+              <a class="site-header__lang-link" href="Ru" aria-label="Ruski">Ru</a>
+            </li>
+          </ul>
+        </div>
         <ul class="site-header__social-list ">
           @include('../social-link/social-link.html', {icon: 'tg'})
           @include('../social-link/social-link.html', {icon: 'wb'})
