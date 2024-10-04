@@ -1,4 +1,4 @@
-.site-main {
+.site__main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,26 +26,25 @@
       border-image: fill 0 linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
       overflow: hidden;
 
-      @include media-min ($md) {
+      @include media-min($md) {
         min-height: 700px;
       }
 
-      @include media-min ($xxl) {
-        min-height: 750px
+      @include media-min($xxl) {
+        min-height: 750px;
       }
 
-      @include media-min ($fhd) {
-        min-height: 1200px
+      @include media-min($fhd) {
+        min-height: 850px;
       }
 
-      .banner-content__text {
+      .main-banner__text {
         font-size: 40px;
         margin-bottom: 20px;
         cursor: default;
         color: #fff;
         text-transform: uppercase;
-        text-shadow: -2px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-          1px 1px 0 #000;
+        text-shadow: -2px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       }
 
       .main-banner__contact {
@@ -59,7 +58,7 @@
         display: inline-block;
       }
 
-      .banner-content__massenger {
+      .main-banner__social-links {
         display: flex;
         justify-content: center;
         padding-left: 0;
@@ -72,13 +71,13 @@
     }
   }
 
-  .timetable {
+  .main-banner__timetable {
     color: var(--white-color);
     border-bottom-right-radius: 50px;
     background-image: url('../img/3.webp');
     padding: 15px 0;
 
-    &__text {
+    .timetable__text {
       font-size: 18px;
       margin: 0;
       text-transform: uppercase;
@@ -86,42 +85,41 @@
     }
   }
 
-  &__service {
-
+  .site-main__service {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     color: var(--black-color);
 
-    .service-description {
+    .service__description {
       flex: 1;
       padding-right: 20px;
 
-      & h2 {
+      h2 {
         font-size: 28px;
         margin-bottom: 15px;
         cursor: default;
         border-bottom: 2px solid var(--light-yellow-color);
 
-        @include media-max ($sm) {
+        @include media-max($sm) {
           margin-top: 0;
         }
       }
 
-      & h3 {
+      h3 {
         font-size: 24px;
         margin-bottom: 20px;
         cursor: default;
         border-bottom: 2px solid var(--light-yellow-color);
       }
 
-      &__menu {
+      .service__list {
         list-style: none;
         padding: 0;
         margin: 0;
 
-        .description__item {
+        .service__item {
           margin-bottom: 10px;
           font-size: 16px;
           line-height: 1.5;
@@ -149,24 +147,34 @@
       padding: 0;
       border: 0;
       border-radius: 8px;
+
+      @include media-max($md) {
+        height: 50%;
+      }
     }
   }
 
-  .definition {
+  .service__definition {
     cursor: default;
 
-    & h4 {
+    h4 {
       font-size: 20px;
       border-bottom: 2px solid var(--light-yellow-color);
       text-transform: uppercase;
+
+      @include media-max($md) {
+        &:first-child {
+          margin-top: 0;
+        }
+      }
     }
 
-    & ul {
+    ul {
       list-style: none;
       padding: 0;
       margin: 0;
 
-      & li {
+      li {
         font-size: 16px;
         cursor: default;
         position: relative;
@@ -181,7 +189,7 @@
       }
     }
 
-    & p {
+    p {
       font-size: 16px;
       margin-top: 11px;
     }

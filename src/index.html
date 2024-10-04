@@ -17,13 +17,13 @@
     @include('html/header/header.html')
 
     <main class="site__content">
-      <div class="site__main site-main">
-        <div class="site-main__banner main-banner ">
-          <div class="main-banner__content banner-content">
-            <h1 class="banner-content__text">Prevoz za nemačku, transfer, exkursije</h1>
+      <div class="site__main">
+        <div class="main-banner ">
+          <div class="main-banner__content">
+            <h1 class="main-banner__text">Prevoz za nemačku, transfer, exkursije</h1>
             <a class="main-banner__contact" href="#">(+382)69738599</a>
 
-            <ul class="banner-content__massenger massenger">
+            <ul class="main-banner__social-links">
               @include('html/social-link/social-link.html', {icon: 'tg'})
               @include('html/social-link/social-link.html', {icon: 'wb'})
               @include('html/social-link/social-link.html', {icon: 'vb'})
@@ -31,8 +31,8 @@
 
           </div>
 
-          <div class="timetable">
-            <div class="container">
+          <div class="main-banner__timetable timetable">
+            <div class="timetable__container">
               <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                   <p class="timetable__text">polasci iz srbije - utorak</p>
@@ -45,19 +45,19 @@
           </div>
         </div>
 
-        <div class="container site-main__service">
+        <div class="container site-main__service service">
           <div class="row py-4">
             <div class="col-12 col-lg-6 py-3 py-lg-0">
-              <div class="main-service__description service-description">
-                <h2>Bezbednost i udobnost naš je prioritet!</h2>
-                <h3>U nasem poslovanju koristimo nova vozila,Mercedes.</h3>
-                <ul class="service-description__menu">
-                  <li class="description__item">Nasi vozaci poseduju visegodisnje iskustvo, profesionalni,licensing od
+              <div class="service__description">
+                <h2 class="service__title">Bezbednost i udobnost naš je prioritet!</h2>
+                <h3 class="service__subtitle">U nasem poslovanju koristimo nova vozila,Mercedes.</h3>
+                <ul class="service__list">
+                  <li class="service__item">Nasi vozaci poseduju visegodisnje iskustvo, profesionalni,licensing od
                     strane ministarstva saobracaja.</li>
-                  <li class="description__item">Pre svakog polaska atomobil se cisti dezinfekcionim sredstvima.</li>
-                  <li class="description__item">Iduvidualni
+                  <li class="service__item">Pre svakog polaska atomobil se cisti dezinfekcionim sredstvima.</li>
+                  <li class="service__item">Iduvidualni
                     pristup svakom klijentu!</li>
-                  <li class="description__item">Nasim klijentima izlazimo u susret i spremni da ponudimo najbolje opcije
+                  <li class="service__item">Nasim klijentima izlazimo u susret i spremni da ponudimo najbolje opcije
                     za resenje vaseg problema,bilo da se radi o
                     induvidualnom izletu,s licenciranim turistickim vodicem ili samom prevozu.</li>
 
@@ -74,47 +74,50 @@
             </div>
           </div>
 
-          <div class="definition row py-4">
+          <div class="service__definition row py-4">
             <div class="col-12 col-lg-4">
-              <h4>prevoz za nemačku</h4>
-              <ul>
-                <li>Crna Gora</li>
-                <li>Hrvatska</li>
-                <li>Srbija</li>
-                <li>Slovenija</li>
-                <li>Avstrija</li>
+              <h4 class="service__subheading">prevoz za nemačku</h4>
+              <ul class="service__list">
+                <li class="service__item">Crna Gora</li>
+                <li class="service__item">Hrvatska</li>
+                <li class="service__item">Srbija</li>
+                <li class="service__item">Slovenija</li>
+                <li class="service__item">Avstrija</li>
               </ul>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur possimus similique
+              <p class="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur
+                possimus similique
                 officiis eos unde quam eum minima distinctio! Deleniti quas excepturi, voluptas harum voluptatem ab
                 rerum
                 inventore corrupti?</p>
             </div>
             <div class="col-12 col-lg-4">
-              <h4>transfer</h4>
+              <h4 class="service__subheading">transfer</h4>
               <ul>
-                <li>aerodrom Podgorica</li>
-                <li>aerodrom Tivat</li>
-                <li>aerodrom Dubrovnik</li>
-                <li>aerodrom Priština</li>
-                <li>aerodrom Beograd</li>
-                <li>aerodrom Tirana</li>
-                <li>aerodrom Sarajevo</li>
+                <li class="service__list">aerodrom Podgorica</li>
+                <li class="service__list">aerodrom Tivat</li>
+                <li class="service__list">aerodrom Dubrovnik</li>
+                <li class="service__list">aerodrom Priština</li>
+                <li class="service__list">aerodrom Beograd</li>
+                <li class="service__list">aerodrom Tirana</li>
+                <li class="service__list">aerodrom Sarajevo</li>
               </ul>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur possimus similique
+              <p class="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur
+                possimus similique
                 officiis eos unde
                 quam eum minima distinctio! Deleniti quas excepturi, voluptas harum voluptatem ab rerum inventore
                 corrupti?</p>
             </div>
             <div class="col-12 col-lg-4">
-              <h4>exkursije</h4>
-              <ul>
-                <li>Crna Gora</li>
-                <li>Albanija</li>
-                <li>Srbija</li>
-                <li>Hrvatska</li>
-                <li>Bosna i Hercegovina</li>
+              <h4 class="service__subheading">exkursije</h4>
+              <ul class="service__list">
+                <li class="service__item">Crna Gora</li>
+                <li class="service__item">Albanija</li>
+                <li class="service__item">Srbija</li>
+                <li class="service__item">Hrvatska</li>
+                <li class="service__item">Bosna i Hercegovina</li>
               </ul>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur possimus similique
+              <p class="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur
+                possimus similique
                 officiis eos unde
                 quam eum minima distinctio! Deleniti quas excepturi, voluptas harum voluptatem ab rerum inventore
                 corrupti?</p>
