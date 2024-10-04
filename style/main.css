@@ -4,7 +4,7 @@
   --dark-gray-color: #4f6457;
   --gray-color: #7d808096;
   --light-blue-color: #e8e9e065;
-  --light-yellow-color: #eff5b8;
+  --light-yellow-color: #f1fc8d;
   --max-site-width: 1600px;
   --min-site-width: 375px;
   --orange-color: #f76c6c;
@@ -576,6 +576,11 @@ a {
   border-bottom: 2px solid var(--light-yellow-color);
   cursor: default;
 }
+@media (max-width: 540px) {
+  .site-main__service .service-description h2 {
+    margin-top: 0;
+  }
+}
 .site-main__service .service-description h3 {
   margin-bottom: 20px;
 
@@ -637,17 +642,21 @@ a {
 .site-main .definition ul li {
   position: relative;
 
+  padding-bottom: 5px;
+
   font-size: 16px;
 
   cursor: default;
 }
 .site-main .definition ul li::before {
-  content: "✔";
+  content: "◈";
   top: 0;
   left: 0;
 
   color: var(--orange-color);
 }
 .site-main .definition p {
+  margin-top: 11px;
+
   font-size: 16px;
 }
