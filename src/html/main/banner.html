@@ -1,7 +1,8 @@
-<div class="main-banner ">
+<div class="main-banner">
   <div class="main-banner__content">
     <h1 class="main-banner__text">Prevoz za nemačku, transfer, exkursije</h1>
-    <a class="main-banner__contact" href="#">(+382)69738599</a>
+    <a class="main-banner__contact"
+       href="#">(+382)69738599</a>
 
     <ul class="main-banner__social-links">
       @include('../social-link/social-link.html', {icon: 'tg'})
@@ -11,16 +12,5 @@
 
   </div>
 
-  <div class="main-banner__timetable timetable">
-    <div class="timetable__container">
-      <div class="row">
-        <div class="col-12 col-md-6 mb-4 mb-md-0">
-          <p class="timetable__text">polasci iz srbije - utorak</p>
-        </div>
-        <div class="col-12 col-md-6">
-          <p class="timetable__text">polasci iz nemačke – četvrtak</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  @include('timetable.html')
 </div>
