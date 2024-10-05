@@ -1,5 +1,5 @@
 .site-header {
-  color: var('--black-color');
+  color: var(--black-color);
   background-color: var(--white-color);
 
   &__top {
@@ -13,12 +13,51 @@
     align-items: center;
   }
 
+  &__dropdown {
+    position: relative;
+  }
+
+  &__dropdown-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+
+    @include media-max($sm) {
+      display: block;
+    }
+  }
+
   &__lang-list {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
     margin-right: -10px;
+
+    @include media-max($sm) {
+      display: none;
+      position: absolute;
+      background-color: var(--white-color);
+      top: 40px;
+      left: 0;
+      right: 0;
+      list-style: none;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    &.is-visible {
+      display: block;
+      background-color: var(--light-yellow-color);
+      z-index: 2;
+    }
+  }
+
+  &__lang-item {
+    @include media-max($sm) {
+      margin-bottom: 10px;
+    }
   }
 
   &__lang-link {
@@ -28,8 +67,6 @@
     margin-right: 10px;
 
     &--active {
-      --link-line: currentColor;
-
       color: var(--orange-color);
     }
 
