@@ -26,34 +26,31 @@
   <div inert="" id="site-top"></div>
   <div class="site__container">
 
-    <header class="site__header site-header">
+    <header class="site-header">
       <div class="site-header__top">
         <div class="container">
           <div class="site-header__top-wrapper">
-            <div class="dropdown">
-              <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="bi bi-globe"></i>
-              </button>
+            <div class="site-header__dropdown dropdown">
               <ul class="site-header__lang-list">
-                <li>
+                <li class="site-header__lang-item">
                   <a class="site-header__lang-link site-header__lang-link--active" href="#" aria-label="Srpski">Sr</a>
                 </li>
-                <li>
+                <li class="site-header__lang-item">
                   <a class="site-header__lang-link" href="En" aria-label="Engleski">En</a>
                 </li>
-                <li>
+                <li class="site-header__lang-item">
                   <a class="site-header__lang-link" href="De" aria-label="Nemački">De</a>
                 </li>
-                <li>
+                <li class="site-header__lang-item">
                   <a class="site-header__lang-link" href="Fr" aria-label="Francuski">Fr</a>
                 </li>
-                <li>
+                <li class="site-header__lang-item">
                   <a class="site-header__lang-link" href="Tr" aria-label="Turski">Tr</a>
                 </li>
-                <li>
+                <li class="site-header__lang-item">
                   <a class="site-header__lang-link" href="Sq" aria-label="Albansk">Sq</a>
                 </li>
-                <li>
+                <li class="site-header__lang-item">
                   <a class="site-header__lang-link" href="Ru" aria-label="Ruski">Ru</a>
                 </li>
               </ul>
@@ -89,47 +86,56 @@
           <div class="site-header__bottom-wrapper">
             <div>
               <a href="#">
-                <img class="site-header__logo" src="img/Logo.svg" alt="Oxana">
+                <img class="site-header__logo-link" src="img/Logo.svg" alt="Oxana">
               </a>
             </div>
-            <nav aria-label="Main Navigation" role="navigation">
-              <ul class="header-menu">
-                <li>
-                  <a href="#" class="navbar__text-style">Prevoz za Nemačku</a>
-
+            <nav class="site-header__nav" aria-label="Main Navigation" role="navigation">
+              <ul class="site-header__menu header-menu">
+                <li class="header-menu__item">
+                  <a href="#" class="header-menu__link">Prevoz za Nemačku</a>
                   <ul class="header-menu__dropdown">
-                    <li><a href="#">Crna Gora</a></li>
-                    <li><a href="#">Hrvatska</a></li>
-                    <li><a href="#">Srbija</a></li>
-                    <li><a href="#">Slovenija</a></li>
-                    <li><a href="#">Avstrija</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Crna Gora</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Hrvatska</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Srbija</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Slovenija</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Avstrija</a></li>
                   </ul>
                 </li>
-
-                <li>
-                  <a href="#">Transfer</a>
+                <li class="header-menu__item">
+                  <a href="#" class="header-menu__link">Transfer</a>
                   <ul class="header-menu__dropdown">
-                    <li><a href="#">aerodrom Podgorica</a></li>
-                    <li><a href="#">aerodrom Tivat</a></li>
-                    <li><a href="#">aerodrom Dubrovnik</a></li>
-                    <li><a href="#">aerodrom Priština</a></li>
-                    <li><a href="#">aerodrom Beograd</a></li>
-                    <li><a href="#">aerodrom Tirana</a></li>
-                    <li><a href="#">aerodrom Sarajevo</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                        Podgorica</a>
+                    </li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom Tivat</a>
+                    </li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                        Dubrovnik</a>
+                    </li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                        Priština</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                        Beograd</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                        Tirana</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                        Sarajevo</a></li>
                   </ul>
                 </li>
-                <li>
-                  <a href="#">Exkursje</a>
+                <li class="header-menu__item">
+                  <a href="#" class="header-menu__link">Ekskurzije</a>
                   <ul class="header-menu__dropdown">
-                    <li><a href="#">Crna Gora</a></li>
-                    <li><a href="#">Albanija</a></li>
-                    <li><a href="#">Srbija</a></li>
-                    <li><a href="#">Hrvatska</a></li>
-                    <li><a href="#">Bosna i Hercegovina</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Crna Gora</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Albanija</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Srbija</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Hrvatska</a></li>
+                    <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Bosna i
+                        Hercegovina</a>
+                    </li>
                   </ul>
                 </li>
-                <li>
-                  <a href="#">Kontakt</a>
+                <li class="header-menu__item">
+                  <a href="#" class="header-menu__link">Kontakt</a>
                 </li>
               </ul>
             </nav>
@@ -137,13 +143,13 @@
     </header>
 
     <main class="site__content">
-      <div class="site__main site-main">
-        <div class="site-main__banner main-banner ">
-          <div class="main-banner__content banner-content">
-            <h1 class="banner-content__text">Prevoz za nemačku, transfer, exkursije</h1>
+      <div class="site__main">
+        <div class="main-banner ">
+          <div class="main-banner__content">
+            <h1 class="main-banner__text">Prevoz za nemačku, transfer, exkursije</h1>
             <a class="main-banner__contact" href="#">(+382)69738599</a>
 
-            <ul class="banner-content__massenger massenger">
+            <ul class="main-banner__social-links">
               <li>
                 <a class="social-link" href="#">
                   <svg width="40" height="40" aria-hidden="true">
@@ -169,8 +175,8 @@
 
           </div>
 
-          <div class="timetable">
-            <div class="container">
+          <div class="main-banner__timetable timetable">
+            <div class="timetable__container">
               <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                   <p class="timetable__text">polasci iz srbije - utorak</p>
@@ -183,22 +189,21 @@
           </div>
         </div>
 
-        <div class="container site-main__service">
+        <div class="container site-main__service service">
           <div class="row py-4">
             <div class="col-12 col-lg-6 py-3 py-lg-0">
-              <div class="main-service__description service-description">
-                <h2>Bezbednost i udobnost naš je prioritet!</h2>
-                <h3>U nasem poslovanju koristimo nova vozila,Mercedes.</h3>
-                <ul class="service-description__menu">
-                  <li class="description__item">Nasi vozaci poseduju visegodisnje iskustvo, profesionalni,licensing od
+              <div class="service__description">
+                <h2 class="service__title">Bezbednost i udobnost naš je prioritet!</h2>
+                <h3 class="service__subtitle">U nasem poslovanju koristimo nova vozila,Mercedes.</h3>
+                <ul class="service__list">
+                  <li class="service__item">Nasi vozaci poseduju visegodisnje iskustvo, profesionalni,licensing od
                     strane ministarstva saobracaja.</li>
-                  <li class="description__item">Pre svakog polaska atomobil se cisti dezinfekcionim sredstvima.</li>
-                  <li class="description__item">Iduvidualni
+                  <li class="service__item">Pre svakog polaska atomobil se cisti dezinfekcionim sredstvima.</li>
+                  <li class="service__item">Iduvidualni
                     pristup svakom klijentu!</li>
-                  <li class="description__item">Nasim klijentima izlazimo u susret i spremni da ponudimo najbolje opcije
+                  <li class="service__item">Nasim klijentima izlazimo u susret i spremni da ponudimo najbolje opcije
                     za resenje vaseg problema,bilo da se radi o
                     induvidualnom izletu,s licenciranim turistickim vodicem ili samom prevozu.</li>
-
                 </ul>
               </div>
             </div>
@@ -209,47 +214,50 @@
             </div>
           </div>
 
-          <div class="definition row py-4">
+          <div class="service__definition definition row py-4">
             <div class="col-12 col-lg-4">
-              <h4>prevoz za nemačku</h4>
-              <ul>
-                <li>Crna Gora</li>
-                <li>Hrvatska</li>
-                <li>Srbija</li>
-                <li>Slovenija</li>
-                <li>Avstrija</li>
+              <h4 class="service__subheading">prevoz za nemačku</h4>
+              <ul class="service__list">
+                <li class="service__item">Crna Gora</li>
+                <li class="service__item">Hrvatska</li>
+                <li class="service__item">Srbija</li>
+                <li class="service__item">Slovenija</li>
+                <li class="service__item">Avstrija</li>
               </ul>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur possimus similique
+              <p class="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur
+                possimus similique
                 officiis eos unde quam eum minima distinctio! Deleniti quas excepturi, voluptas harum voluptatem ab
                 rerum
                 inventore corrupti?</p>
             </div>
             <div class="col-12 col-lg-4">
-              <h4>transfer</h4>
+              <h4 class="service__subheading">transfer</h4>
               <ul>
-                <li>aerodrom Podgorica</li>
-                <li>aerodrom Tivat</li>
-                <li>aerodrom Dubrovnik</li>
-                <li>aerodrom Priština</li>
-                <li>aerodrom Beograd</li>
-                <li>aerodrom Tirana</li>
-                <li>aerodrom Sarajevo</li>
+                <li class="service__list">aerodrom Podgorica</li>
+                <li class="service__list">aerodrom Tivat</li>
+                <li class="service__list">aerodrom Dubrovnik</li>
+                <li class="service__list">aerodrom Priština</li>
+                <li class="service__list">aerodrom Beograd</li>
+                <li class="service__list">aerodrom Tirana</li>
+                <li class="service__list">aerodrom Sarajevo</li>
               </ul>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur possimus similique
+              <p class="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur
+                possimus similique
                 officiis eos unde
                 quam eum minima distinctio! Deleniti quas excepturi, voluptas harum voluptatem ab rerum inventore
                 corrupti?</p>
             </div>
             <div class="col-12 col-lg-4">
-              <h4>exkursije</h4>
-              <ul>
-                <li>Crna Gora</li>
-                <li>Albanija</li>
-                <li>Srbija</li>
-                <li>Hrvatska</li>
-                <li>Bosna i Hercegovina</li>
+              <h4 class="service__subheading">exkursije</h4>
+              <ul class="service__list">
+                <li class="service__item">Crna Gora</li>
+                <li class="service__item">Albanija</li>
+                <li class="service__item">Srbija</li>
+                <li class="service__item">Hrvatska</li>
+                <li class="service__item">Bosna i Hercegovina</li>
               </ul>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur possimus similique
+              <p class="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore tenetur
+                possimus similique
                 officiis eos unde
                 quam eum minima distinctio! Deleniti quas excepturi, voluptas harum voluptatem ab rerum inventore
                 corrupti?</p>
@@ -260,7 +268,7 @@
   </div>
   </main>
 
-  <footer class="site__footer site-footer">
+  <footer class="site-footer">
     <div class="site-footer__top">
       <div class="container">
         <div class="site-footer__top-wrapper">
@@ -291,25 +299,24 @@
 
 
           <nav aria-label="Main Navigation" role="navigation">
-            <ul class="site-footer__menu">
-              <li>
-                <a href="#" class="footer__text-style">Prevoz za Nemačku</a>
+            <ul class="site-footer__menu footer-menu">
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Prevoz za Nemačku</a>
 
               </li>
-              <li>
-                <a href="#">Transfer</a>
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Transfer</a>
               </li>
-              <li>
-                <a href="#">Exkursje</a>
-
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Exkursje</a>
               </li>
-
-              <li>
-                <a href="#">Kontakt</a>
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Kontakt</a>
               </li>
             </ul>
           </nav>
-          <div>
+
+          <div class="site-footer__logo-container">
             <a href="#">
               <img class="site-footer__logo" src="img/Logo.svg" alt="Oxana">
             </a>
