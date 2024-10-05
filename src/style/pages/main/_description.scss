@@ -1,0 +1,42 @@
+.service__description {
+  flex: 1;
+  padding-right: 20px;
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--light-yellow-color);
+
+    @include media-max($sm) {
+      margin-top: 0;
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--light-yellow-color);
+  }
+
+  .service__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .service__item {
+      margin-bottom: 10px;
+      font-size: 16px;
+      line-height: 1.5;
+      padding-left: 20px;
+      position: relative;
+
+      &::before {
+        content: '✔';
+        color: var(--orange-color);
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+}
