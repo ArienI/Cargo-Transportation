@@ -12,6 +12,7 @@
   &__content {
     flex-grow: 1;
     margin-top: var(--offset-top, 0);
+    background-color: var(--light-blue-color);
   }
 
   &__footer {
