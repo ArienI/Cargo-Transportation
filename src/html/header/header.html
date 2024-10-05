@@ -1,31 +1,28 @@
-<header class="site__header site-header">
+<header class="site-header">
   <div class="site-header__top">
     <div class="container">
       <div class="site-header__top-wrapper">
-        <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="bi bi-globe"></i>
-          </button>
+        <div class="site-header__dropdown dropdown">
           <ul class="site-header__lang-list">
-            <li>
+            <li class="site-header__lang-item">
               <a class="site-header__lang-link site-header__lang-link--active" href="#" aria-label="Srpski">Sr</a>
             </li>
-            <li>
+            <li class="site-header__lang-item">
               <a class="site-header__lang-link" href="En" aria-label="Engleski">En</a>
             </li>
-            <li>
+            <li class="site-header__lang-item">
               <a class="site-header__lang-link" href="De" aria-label="Nemački">De</a>
             </li>
-            <li>
+            <li class="site-header__lang-item">
               <a class="site-header__lang-link" href="Fr" aria-label="Francuski">Fr</a>
             </li>
-            <li>
+            <li class="site-header__lang-item">
               <a class="site-header__lang-link" href="Tr" aria-label="Turski">Tr</a>
             </li>
-            <li>
+            <li class="site-header__lang-item">
               <a class="site-header__lang-link" href="Sq" aria-label="Albansk">Sq</a>
             </li>
-            <li>
+            <li class="site-header__lang-item">
               <a class="site-header__lang-link" href="Ru" aria-label="Ruski">Ru</a>
             </li>
           </ul>
@@ -43,47 +40,56 @@
       <div class="site-header__bottom-wrapper">
         <div>
           <a href="#">
-            <img class="site-header__logo" src="img/Logo.svg" alt="Oxana">
+            <img class="site-header__logo-link" src="img/Logo.svg" alt="Oxana">
           </a>
         </div>
-        <nav aria-label="Main Navigation" role="navigation">
-          <ul class="header-menu">
-            <li>
-              <a href="#" class="navbar__text-style">Prevoz za Nemačku</a>
-
+        <nav class="site-header__nav" aria-label="Main Navigation" role="navigation">
+          <ul class="site-header__menu header-menu">
+            <li class="header-menu__item">
+              <a href="#" class="header-menu__link">Prevoz za Nemačku</a>
               <ul class="header-menu__dropdown">
-                <li><a href="#">Crna Gora</a></li>
-                <li><a href="#">Hrvatska</a></li>
-                <li><a href="#">Srbija</a></li>
-                <li><a href="#">Slovenija</a></li>
-                <li><a href="#">Avstrija</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Crna Gora</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Hrvatska</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Srbija</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Slovenija</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Avstrija</a></li>
               </ul>
             </li>
-
-            <li>
-              <a href="#">Transfer</a>
+            <li class="header-menu__item">
+              <a href="#" class="header-menu__link">Transfer</a>
               <ul class="header-menu__dropdown">
-                <li><a href="#">aerodrom Podgorica</a></li>
-                <li><a href="#">aerodrom Tivat</a></li>
-                <li><a href="#">aerodrom Dubrovnik</a></li>
-                <li><a href="#">aerodrom Priština</a></li>
-                <li><a href="#">aerodrom Beograd</a></li>
-                <li><a href="#">aerodrom Tirana</a></li>
-                <li><a href="#">aerodrom Sarajevo</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                    Podgorica</a>
+                </li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom Tivat</a>
+                </li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                    Dubrovnik</a>
+                </li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                    Priština</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                    Beograd</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                    Tirana</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">aerodrom
+                    Sarajevo</a></li>
               </ul>
             </li>
-            <li>
-              <a href="#">Exkursje</a>
+            <li class="header-menu__item">
+              <a href="#" class="header-menu__link">Ekskurzije</a>
               <ul class="header-menu__dropdown">
-                <li><a href="#">Crna Gora</a></li>
-                <li><a href="#">Albanija</a></li>
-                <li><a href="#">Srbija</a></li>
-                <li><a href="#">Hrvatska</a></li>
-                <li><a href="#">Bosna i Hercegovina</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Crna Gora</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Albanija</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Srbija</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Hrvatska</a></li>
+                <li class="header-menu__dropdown-item"><a href="#" class="header-menu__dropdown-link">Bosna i
+                    Hercegovina</a>
+                </li>
               </ul>
             </li>
-            <li>
-              <a href="#">Kontakt</a>
+            <li class="header-menu__item">
+              <a href="#" class="header-menu__link">Kontakt</a>
             </li>
           </ul>
         </nav>

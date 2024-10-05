@@ -51,12 +51,12 @@
     align-items: center;
   }
 
-  &__logo {
+  &__logo-link {
     width: 200px;
     height: auto;
   }
 
-  .site-header__lang-select {
+  &__nav {
     display: block;
     margin: 0 auto;
     padding: 5px;

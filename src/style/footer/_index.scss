@@ -1,20 +1,17 @@
 .site-footer {
-  color: var();
-  background-color: var(--white-color);
 
   &__top {
     padding-top: 10px;
     border-bottom: 2px solid var(--light-yellow-color);
   }
 
-  & &__top-wrapper {
+  &__top-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   &__social-list {
-
     padding: 0;
     list-style-type: none;
     display: flex;

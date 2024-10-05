@@ -5,27 +5,26 @@
   display: flex;
   flex-wrap: wrap;
 
-  &>li {
+  &__item {
     position: relative;
     margin-right: 20px;
 
-    &:hover {
-      color: var(--black-color);
-    }
-
     &:hover,
     &:focus-within {
-      & .header-menu__dropdown {
+      color: var(--black-color);
+
+      .header-menu__dropdown {
         display: block;
       }
     }
   }
 
-  & a {
-    color: inherit;
+  &__link {
     font-size: 20px;
     line-height: 28px;
     margin-left: 10px;
+    text-decoration: none;
+    color: inherit;
 
     &:hover {
       color: var(--orange-color);
@@ -47,9 +46,19 @@
     border-radius: 8px;
     z-index: 2;
 
-    & a {
+    &-item {
+      padding: 0 10px;
+    }
+
+    &-link {
       display: inline-block;
       padding: 10px 4px;
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        color: var(--orange-color);
+      }
     }
   }
 }
