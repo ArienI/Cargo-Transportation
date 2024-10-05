@@ -1,8 +1,0 @@
-.social-link {
-  display: inline-flex;
-  padding-right: 10px;
-}
-.social-link:hover {
-  -webkit-filter: brightness(0.7);
-          filter: brightness(0.7);
-}

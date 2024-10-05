@@ -190,6 +190,8 @@ a {
 .site__content {
   flex-grow: 1;
   margin-top: var(--offset-top, 0);
+
+  background-color: var(--light-blue-color);
 }
 .site__footer {
   flex-shrink: 0;
@@ -533,22 +535,6 @@ a {
           filter: brightness(0.7);
 }
 
-.main-banner__timetable {
-  padding: 15px 0;
-
-  color: var(--white-color);
-
-  background-image: url("../img/3.webp");
-  border-bottom-right-radius: 50px;
-}
-.main-banner__timetable .timetable__text {
-  margin: 0;
-
-  font-size: 18px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .service__description {
   flex: 1;
   padding-right: 20px;
@@ -642,8 +628,6 @@ a {
 }
 .service__definition ul li::before {
   content: "◈";
-  top: 0;
-  left: 0;
 
   color: var(--orange-color);
 }
@@ -653,6 +637,18 @@ a {
   font-size: 16px;
 }
 
-.site__content {
-  background-color: var(--light-blue-color);
+.timetable {
+  padding: 15px 0;
+
+  color: var(--white-color);
+
+  background-image: url("../img/3.webp");
+  border-bottom-right-radius: 50px;
+}
+.timetable__text {
+  margin: 0;
+
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
 }
