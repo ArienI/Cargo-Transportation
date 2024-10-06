@@ -1,7 +1,7 @@
 .service__definition {
   cursor: default;
 
-  h4 {
+  &__subheading {
     font-size: 20px;
     border-bottom: 2px solid var(--light-yellow-color);
     text-transform: uppercase;
@@ -13,24 +13,24 @@
     }
   }
 
-  ul {
+  &__list {
     list-style: none;
     padding: 0;
     margin: 0;
+  }
 
-    li {
-      font-size: 16px;
-      position: relative;
-      padding-bottom: 5px;
+  &__item {
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 5px;
 
-      &::before {
-        content: '◈';
-        color: var(--orange-color);
-      }
+    &::before {
+      content: '◈';
+      color: var(--orange-color);
     }
   }
 
-  p {
+  &__text {
     font-size: 16px;
     margin-top: 11px;
   }

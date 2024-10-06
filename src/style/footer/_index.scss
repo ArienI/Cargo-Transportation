@@ -42,17 +42,18 @@
       justify-items: center;
       margin-bottom: 10px;
     }
+  }
 
-    &>li {
-      position: relative;
-      margin-right: 20px;
+  &__item {
+    position: relative;
+    margin-right: 20px;
 
-      @include media-max ($md) {
-        margin: 0;
-      }
+    @include media-max ($md) {
+      margin: 0;
     }
 
-    & a {
+
+    &__link {
       color: var(--black-color);
       text-decoration: none;
       margin-right: 10px;
@@ -66,14 +67,14 @@
       }
     }
   }
+}
 
-  &__logo {
-    width: 150px;
-    height: auto;
-  }
+&__logo {
+  width: 150px;
+  height: auto;
+}
 
-  &__copyright {
-    text-align: end;
-    margin: 0;
-  }
+&__copyright {
+  text-align: end;
+  margin: 0;
 }
