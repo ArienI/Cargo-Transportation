@@ -1,18 +1,4 @@
 <main class="site__content">
-  <div class="site__main">
-    @include('banner.html')
-
-    <div class="container site-main__service service">
-      <div class="row py-4">
-        <div class="col-12 col-lg-6 py-3 py-lg-0">
-          @include('service/description.html')
-        </div>
-        <div class="col-12 col-lg-6 py-3 py-lg-0">
-          @include('service/map.html')
-        </div>
-      </div>
-
-      @include('service/definition.html')
-    </div>
-  </div>
+  @include('banner.html')
+  @include('service.html')
 </main>

@@ -1,6 +1,4 @@
-.service__definition {
-  cursor: default;
-
+.definition {
   &__subheading {
     font-size: 20px;
     border-bottom: 2px solid var(--light-yellow-color);
@@ -27,6 +25,7 @@
     &::before {
       content: '◈';
       color: var(--orange-color);
+      margin-right: 5px;
     }
   }
 

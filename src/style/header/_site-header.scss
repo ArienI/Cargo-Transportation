@@ -21,43 +21,29 @@
     background: none;
     border: none;
     cursor: pointer;
-    display: none;
-
-    @include media-max($sm) {
-      display: block;
-    }
+    display: inline-block;
   }
 
   &__lang-list {
+    display: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     list-style-type: none;
-    display: flex;
-    margin-right: -10px;
-
-    @include media-max($sm) {
-      display: none;
-      position: absolute;
-      background-color: var(--white-color);
-      top: 40px;
-      left: 0;
-      right: 0;
-      list-style: none;
-      padding: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+    position: absolute;
+    top: calc(100% - 5px);
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--light-yellow-color);
+    z-index: 2;
 
     &.is-visible {
       display: block;
-      background-color: var(--light-yellow-color);
-      z-index: 2;
     }
   }
 
   &__lang-item {
-    @include media-max($sm) {
-      margin-bottom: 10px;
-    }
+    margin-bottom: 10px;
   }
 
   &__lang-link {
@@ -89,14 +75,72 @@
   }
 
   &__logo-link {
-    width: 200px;
-    height: auto;
+    flex-shrink: 0;
+
+    & img {
+      width: 130px;
+    }
   }
 
   &__nav {
-    display: block;
+    display: none;
     margin: 0 auto;
     padding: 5px;
     font-size: 16px;
+
+    &.is-visible {}
+  }
+
+  &__burger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    color: var(--orange-color);
+  }
+
+  &__cross {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    color: var(--orange-color);
+  }
+
+  @include media-min ($sm) {
+    &__dropdown-btn {
+      display: none;
+    }
+
+    &__lang-list {
+      position: static;
+      display: flex;
+      box-shadow: none;
+      background-color: transparent;
+
+      &.is-visible {
+        position: static;
+        display: flex;
+        box-shadow: none;
+        background-color: transparent;
+      }
+    }
+
+    &__lang-item {
+      margin-bottom: 0;
+    }
+  }
+
+  @include media-min ($md) {
+    &__logo-link {
+
+      & img {
+        width: 200px;
+      }
+    }
+
+    &__nav {
+      display: block;
+    }
   }
 }
