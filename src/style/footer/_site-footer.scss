@@ -1,0 +1,46 @@
+.site-footer {
+  &__top {
+    padding-top: 10px;
+    border-bottom: 2px solid var(--light-yellow-color);
+  }
+
+  &__logo {
+    display: inline-flex;
+
+    & img {
+      width: 150px;
+    }
+  }
+
+  &__social-list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__social-link {
+    display: inline-flex;
+
+    &:hover {
+      filter: brightness(0.7);
+    }
+  }
+
+  &__copyright {
+    text-align: right;
+    margin: 8px 0;
+    padding: 0 10px;
+  }
+
+  @include media-min ($lg) {
+    &__social-list {
+      justify-content: flex-start;
+    }
+
+    &__logo-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
