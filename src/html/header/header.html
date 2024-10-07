@@ -58,16 +58,29 @@
   <div class="site-header__bottom">
     <div class="container">
       <div class="site-header__bottom-wrapper">
-        <div>
-          <a href="#">
-            <img class="site-header__logo-link"
-                 src="img/Logo.svg"
-                 alt="Oxana">
-          </a>
-        </div>
-        <nav class="site-header__nav"
+        <a class="site-header__logo-link"
+           href="#">
+          <img width="130"
+               src="img/Logo.svg"
+               alt="Oxana">
+        </a>
+        <button class="site-header__burger d-md-none">
+          <svg width="40"
+               height="40"
+               aria-hidden="true">
+            <use xlink:href="img/sprite.svg#burger"></use>
+          </svg>
+        </button>
+        <nav class="site-header__nav is-visible"
              aria-label="Main Navigation"
              role="navigation">
+          <button class="site-header__cross d-md-none">
+            <svg width="32"
+                 height="32"
+                 aria-hidden="true">
+              <use xlink:href="img/sprite.svg#cross"></use>
+            </svg>
+          </button>
           <ul class="site-header__menu header-menu">
             <li class="header-menu__item">
               <a href="#"
