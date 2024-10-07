@@ -1,44 +1,48 @@
 <footer class="site-footer">
   <div class="site-footer__top">
     <div class="container">
-      <div class="site-footer__top-wrapper">
-
-        <ul class="site-footer__social-list">
-          @include('../social-link/social-link.html', {icon: 'tg'})
-          @include('../social-link/social-link.html', {icon: 'wb'})
-          @include('../social-link/social-link.html', {icon: 'vb'})
-        </ul>
-
-
-        <nav aria-label="Main Navigation" role="navigation">
-          <ul class="site-footer__menu footer-menu">
+      <div class="row align-items-lg-center">
+        <div class="col-6 col-lg-2 order-lg-3">
+          <div class="site-footer__logo-container">
+            <a class="site-footer__logo"
+               href="#">
+              <img src="img/Logo.svg"
+                   alt="Oxana">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 order-lg-1">
+          <ul class="site-footer__social-list">
+            @include('../social-link/social-link.html', {icon: 'tg'})
+            @include('../social-link/social-link.html', {icon: 'wb'})
+            @include('../social-link/social-link.html', {icon: 'vb'})
+          </ul>
+        </div>
+        <nav class="col-12 col-lg-8 pb-3 pb-lg-0 order-lg-2"
+             aria-label="Main Navigation"
+             role="navigation">
+          <ul class="footer-menu">
             <li class="footer-menu__item">
-              <a href="#" class="footer-menu__link">Prevoz za Nemačku</a>
+              <a href="#"
+                 class="footer-menu__link">Prevoz za Nemačku</a>
 
             </li>
             <li class="footer-menu__item">
-              <a href="#" class="footer-menu__link">Transfer</a>
+              <a href="#"
+                 class="footer-menu__link">Transfer</a>
             </li>
             <li class="footer-menu__item">
-              <a href="#" class="footer-menu__link">Exkursje</a>
+              <a href="#"
+                 class="footer-menu__link">Exkursje</a>
             </li>
             <li class="footer-menu__item">
-              <a href="#" class="footer-menu__link">Kontakt</a>
+              <a href="#"
+                 class="footer-menu__link">Kontakt</a>
             </li>
           </ul>
         </nav>
-
-        <div class="site-footer__logo-container">
-          <a href="#">
-            <img class="site-footer__logo" src="img/Logo.svg" alt="Oxana">
-          </a>
-        </div>
       </div>
     </div>
   </div>
-
-  <div class="site-footer__bottom-wrapper">
-    <div class="site-footer__bottom">
-      <p class="site-footer__copyright">&#169; 2024. Arien=meow=</p>
-    </div>
+  <p class="site-footer__copyright">&#169; 2024. Arien=meow=</p>
 </footer>
