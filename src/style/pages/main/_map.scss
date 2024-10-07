@@ -1,14 +1,15 @@
-.service__map {
+.service-map {
   flex: 1;
-}
 
-.service__map-iframe {
-  width: 100%;
-  padding: 0;
-  border: 0;
-  border-radius: 8px;
+  & iframe {
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 250px;
 
-  @include media-max($md) {
-    height: 50%;
+    @include media-min($md) {
+      height: 450px;
+    }
   }
 }
