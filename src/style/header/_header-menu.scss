@@ -32,7 +32,6 @@
   }
 
   &__dropdown {
-    @include anim(drop, 0.4s);
     display: none;
     margin: 0;
     padding: 0;
