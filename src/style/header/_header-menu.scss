@@ -1,63 +1,91 @@
 .header-menu {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-
-  &__item {
-    position: relative;
-    margin-right: 20px;
-
-    &:hover,
-    &:focus-within {
-      color: var(--black-color);
-
-      .header-menu__dropdown {
-        display: block;
-      }
-    }
-  }
+  padding-left: 0;
 
   &__link {
-    font-size: 20px;
-    line-height: 28px;
-    margin-left: 10px;
-    text-decoration: none;
-    color: inherit;
+    border-bottom: 2px solid var(--light-yellow-color);
+    color: var(--black-color);
+    padding-right: 20px;
+  }
 
-    &:hover {
-      color: var(--orange-color);
-    }
+  &__item {
+    color: var(--black-color);
+    padding-top: 10px;
   }
 
   &__dropdown {
-    display: none;
-    margin: 0;
-    padding: 0;
+    // display: none;
     list-style-type: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 250px;
-    color: var(--dark-blue-color);
-    background-color: var(--light-yellow-color);
-    border-radius: 8px;
-    z-index: 2;
+    padding-left: 20px;
+    background-color: var(--light-blue-color);
+    padding-top: 10px;
+  }
 
-    &-item {
-      padding: 0 10px;
-    }
-
-    &-link {
-      display: inline-block;
-      padding: 10px 4px;
-      text-decoration: none;
-      color: inherit;
-
-      &:hover {
-        color: var(--orange-color);
-      }
-    }
+  &__dropdown-link {
+    color: var(--black-color);
   }
 }
+
+// .header-menu {
+//   margin: 0;
+//   padding: 0;
+//   list-style-type: none;
+//   display: flex;
+//   flex-wrap: wrap;
+
+//   &__item {
+//     position: relative;
+//     margin-right: 20px;
+
+//     &:hover,
+//     &:focus-within {
+//       color: var(--black-color);
+
+//       .header-menu__dropdown {
+//         display: block;
+//       }
+//     }
+//   }
+
+//   &__link {
+//     font-size: 20px;
+//     line-height: 28px;
+//     margin-left: 10px;
+//     text-decoration: none;
+//     color: inherit;
+
+//     &:hover {
+//       color: var(--orange-color);
+//     }
+//   }
+
+//   &__dropdown {
+//     display: none;
+//     margin: 0;
+//     padding: 0;
+//     list-style-type: none;
+//     position: absolute;
+//     top: 100%;
+//     left: 0;
+//     width: 250px;
+//     color: var(--dark-blue-color);
+//     background-color: var(--light-yellow-color);
+//     border-radius: 8px;
+//     z-index: 2;
+
+//     &-item {
+//       padding: 0 10px;
+//     }
+
+//     &-link {
+//       display: inline-block;
+//       padding: 10px 4px;
+//       text-decoration: none;
+//       color: inherit;
+
+//       &:hover {
+//         color: var(--orange-color);
+//       }
+//     }
+//   }
+// }
