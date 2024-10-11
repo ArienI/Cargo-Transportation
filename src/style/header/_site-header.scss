@@ -4,6 +4,7 @@
 
   &__top {
     padding-top: 10px;
+    padding-bottom: 4px;
     border-bottom: 2px solid var(--light-yellow-color);
   }
 
@@ -55,10 +56,6 @@
     &--active {
       color: var(--orange-color);
     }
-
-    &:hover {
-      color: var(--orange-color);
-    }
   }
 
   &__social-list {
@@ -66,12 +63,19 @@
     padding: 0;
     list-style-type: none;
     display: flex;
+
+    &>* {
+      display: flex;
+      margin-left: 10px;
+    }
   }
 
   &__bottom-wrapper {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   &__logo-link {
@@ -83,26 +87,18 @@
   }
 
   &__nav {
-    display: none;
-    margin: 0 auto;
-    padding: 5px;
-    font-size: 16px;
+    display: grid;
+    grid-template-rows: 0fr;
+    flex-basis: 100%;
+    transition: grid-template-rows 0.4s ease-in-out;
+
+    &.is-open {
+      grid-template-rows: 1fr;
+    }
   }
 
-  &__burger {
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    color: var(--orange-color);
-  }
-
-  &__cross {
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    color: var(--orange-color);
+  &__menu-wrapper {
+    overflow: hidden;
   }
 
   @include media-min ($sm) {
@@ -139,10 +135,17 @@
 
     &__nav {
       display: block;
+      flex-basis: auto;
     }
   }
 
-  &__container {
-    background-color: var(--l-yellow-color);
+  @include media-min ($xl) {
+    &__lang-link {
+      transition: color .15s ease-in-out;
+
+      &:hover {
+        color: var(--orange-color);
+      }
+    }
   }
 }
