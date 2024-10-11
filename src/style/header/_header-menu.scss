@@ -1,106 +1,47 @@
 .header-menu {
+  margin: 0;
   list-style-type: none;
-  padding-left: 0;
+  padding: 5px 0;
+  text-align: center;
 
   &__item {
-    color: var(--black-color);
-    position: relative;
-    width: 100%;
     padding: 10px 0;
-  }
-
-  &__link-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    text-decoration: none;
-    color: inherit;
-    padding: 5px 0;
+    border-bottom: 2px solid var(--light-yellow-color);
   }
 
   &__link {
-    position: relative;
-    width: 100%;
-    border-bottom: 2px solid var(--light-yellow-color);
+    display: block;
     color: var(--black-color);
-    padding-right: 20px;
   }
 
+  @include media-min ($md) {
+    display: flex;
+    padding: 0;
 
+    &__item {
+      border-bottom: none;
+      margin-left: 15px;
+    }
 
-  &__dropdown {
-    // display: none;
-    list-style-type: none;
-    background-color: var(--light-blue-color);
-    padding: 10px 20px;
+    &__link {
+      white-space: nowrap;
+    }
   }
 
-  &__dropdown-link {
-    color: inherit;
+  @include media-min ($xl) {
+    &__item {
+      margin-left: 25px;
+    }
+
+    &__link {
+      white-space: revert;
+      font-size: 20px;
+      line-height: 28px;
+      transition: color .15s ease-in-out;
+
+      &:hover {
+        color: var(--orange-color);
+      }
+    }
   }
 }
-
-// .header-menu {
-//   margin: 0;
-//   padding: 0;
-//   list-style-type: none;
-//   display: flex;
-//   flex-wrap: wrap;
-
-//   &__item {
-//     position: relative;
-//     margin-right: 20px;
-
-//     &:hover,
-//     &:focus-within {
-//       color: var(--black-color);
-
-//       .header-menu__dropdown {
-//         display: block;
-//       }
-//     }
-//   }
-
-//   &__link {
-//     font-size: 20px;
-//     line-height: 28px;
-//     margin-left: 10px;
-//     text-decoration: none;
-//     color: inherit;
-
-//     &:hover {
-//       color: var(--orange-color);
-//     }
-//   }
-
-//   &__dropdown {
-//     display: none;
-//     margin: 0;
-//     padding: 0;
-//     list-style-type: none;
-//     position: absolute;
-//     top: 100%;
-//     left: 0;
-//     width: 250px;
-//     color: var(--dark-blue-color);
-//     background-color: var(--light-yellow-color);
-//     border-radius: 8px;
-//     z-index: 2;
-
-//     &-item {
-//       padding: 0 10px;
-//     }
-
-//     &-link {
-//       display: inline-block;
-//       padding: 10px 4px;
-//       text-decoration: none;
-//       color: inherit;
-
-//       &:hover {
-//         color: var(--orange-color);
-//       }
-//     }
-//   }
-// }
