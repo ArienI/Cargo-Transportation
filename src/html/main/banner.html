@@ -1,16 +1,95 @@
-<div class="main-banner">
-  <div class="main-banner__content">
-    <h1 class="main-banner__text">Prevoz za nemačku, transfer, exkursije</h1>
-    <a class="main-banner__contact"
-       href="#">(+382)69738599</a>
-
-    <ul class="main-banner__social-links">
-      @include('../social-link/social-link.html', {icon: 'tg'})
-      @include('../social-link/social-link.html', {icon: 'wb'})
-      @include('../social-link/social-link.html', {icon: 'vb'})
-    </ul>
-
+<section class="main-banner slider"
+         id="main-banner">
+  <h1 class="visually-hidden">Prevoz za nemačku, transfer, exkursije</h1>
+  <div class="main-banner__parallax-bg"
+       data-swiper-parallax="-10%"></div>
+  <div class="swiper-wrapper slider__wrapper">
+    <section class="swiper-slide main-banner__slide">
+      <div class="container main-banner__container">
+        <h2 class="main-banner__text"
+            data-swiper-parallax="-400">Prevoz za nemačku</h2>
+        <div class="row"
+             data-swiper-parallax="-200">
+          <div class="col-12 col-md-6">
+            <ul class="main-banner__list">
+              <li>Crna Gora</li>
+              <li>Hrvatska</li>
+              <li>Srbija</li>
+              <li>Slovenija</li>
+              <li>Avstrija</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 align-self-md-center">
+            <a class="main-banner__contact"
+               href="#">(+382)69738599</a>
+            <ul class="main-banner__socials">
+              @include('../social-link/social-link.html', {icon: 'tg'})
+              @include('../social-link/social-link.html', {icon: 'wb'})
+              @include('../social-link/social-link.html', {icon: 'vb'})
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="swiper-slide main-banner__slide">
+      <div class="container main-banner__container">
+        <h2 class="main-banner__text"
+            data-swiper-parallax="-400">Transfer</h2>
+        <div class="row"
+             data-swiper-parallax="-200">
+          <div class="col-12 col-md-6">
+            <ul class="main-banner__list">
+              <li>aerodrom Podgorica</li>
+              <li>aerodrom Tivat</li>
+              <li>aerodrom Dubrovnik</li>
+              <li>aerodrom Priština</li>
+              <li>aerodrom Beograd</li>
+              <li>aerodrom Tirana</li>
+              <li>aerodrom Sarajevo</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 align-self-md-center">
+            <a class="main-banner__contact"
+               href="#">(+382)69738599</a>
+            <ul class="main-banner__socials">
+              @include('../social-link/social-link.html', {icon: 'tg'})
+              @include('../social-link/social-link.html', {icon: 'wb'})
+              @include('../social-link/social-link.html', {icon: 'vb'})
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="swiper-slide main-banner__slide">
+      <div class="container main-banner__container">
+        <h2 class="main-banner__text"
+            data-swiper-parallax="-400">Exkursije</h2>
+        <div class="row"
+             data-swiper-parallax="-200">
+          <div class="col-12 col-md-6">
+            <ul class="main-banner__list">
+              <li>Crna Gora</li>
+              <li>Albanija</li>
+              <li>Srbija</li>
+              <li>Hrvatska</li>
+              <li>Bosna i Hercegovina</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 align-self-md-center">
+            <a class="main-banner__contact"
+               href="#">(+382)69738599</a>
+            <ul class="main-banner__socials">
+              @include('../social-link/social-link.html', {icon: 'tg'})
+              @include('../social-link/social-link.html', {icon: 'wb'})
+              @include('../social-link/social-link.html', {icon: 'vb'})
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-
-  @include('timetable.html')
-</div>
+  <div class="slider__controls">
+    @include('../common/slider-controls.html')
+  </div>
+  <div class="slider__pagination"></div>
+</section>

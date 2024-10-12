@@ -1,8 +1,11 @@
   .social-link {
     display: inline-flex;
-    transition: filter .15s ease-in-out;
 
-    &:hover {
-      filter: brightness(0.7);
+    @include media-min ($lg) {
+      transition: filter .15s ease-in-out;
+
+      &:hover {
+        filter: brightness(0.7);
+      }
     }
   }
