@@ -1,61 +1,151 @@
 .main-banner {
-  width: 100%;
+  position: relative;
+  color: var(--white-color);
+  background-color: var(--gray-color);
 
-  &__content {
+  &__parallax-bg {
+    position: absolute;
+    left: -10%;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../img/image-30-09-24-07-02.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.6);
+  }
+
+  &__slide {
     padding: 60px 0;
     min-height: 500px;
-    background-image: url('../img/image-30-09-24-07-02.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
-    overflow: hidden;
+  }
 
-    @include media-min($md) {
-      min-height: 700px;
+  &__text {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    text-shadow: -2px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+    text-shadow: -2px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    margin-bottom: 40px;
+
+    &>li {
+      margin-bottom: 6px;
     }
+  }
 
-    @include media-min($xxl) {
-      min-height: 750px;
-    }
+  &__contact {
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--orange-color);
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: inline-block;
+  }
 
-    @include media-min($fhd) {
-      min-height: 850px;
-    }
+  &__socials {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 
-    .main-banner__text {
-      font-size: 40px;
-      margin-bottom: 20px;
-      color: #fff;
-      text-transform: uppercase;
-      text-shadow: -2px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    }
-
-    .main-banner__contact {
-      color: #fff;
-      font-size: 24px;
-      margin-bottom: 20px;
-      text-decoration: none;
-      background-color: var(--orange-color);
-      border-radius: 8px;
-      padding: 10px 20px;
-      display: inline-block;
-    }
-
-    .main-banner__social-links {
-      display: flex;
-      justify-content: center;
-      padding-left: 0;
-      list-style-type: none;
-
-      &>li:hover {
-        filter: brightness(0.7);
+    &>* {
+      &:not(:first-child) {
+        margin-left: 10px;
       }
     }
   }
+
+  @include media-min($md) {
+    &__container {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    &__slide {
+      min-height: 600px;
+    }
+
+    &__text {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+
+    &__list {
+      text-align: left;
+      margin-bottom: 0;
+      font-size: 24px;
+    }
+  }
+
+  @include media-min ($lg) {
+    &__container {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+
+    &__text {
+      text-align: left;
+    }
+
+    &__contact {
+      transition: background-color .2s ease-in-out;
+
+      &:hover {
+        background-color: var(--orange-70-color);
+      }
+    }
+  }
+
+  @include media-min ($xl) {
+    &__container {
+      padding-left: 120px;
+      padding-right: 120px;
+    }
+  }
+
+  @include media-min($xxl) {
+    &__slide {
+      min-height: 750px;
+    }
+
+    &__text {
+      font-size: 64px;
+    }
+
+    &__list {
+      font-size: 28px;
+    }
+
+    &__contact {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+  }
+
+  @include media-min($fhd) {
+    &__container {
+      padding-left: 192px;
+      padding-right: 192px;
+    }
+
+    &__slide {
+      min-height: 850px;
+    }
+  }
+
 }
