@@ -22,7 +22,7 @@ const sliderConfig = {
     parallax: true,
     loop: true,
     autoplay: {
-      delay: 8000,
+      delay: 5000,
     },
     navigation: {
       prevEl: '#main-banner [data-to-slide="prev"]',
