@@ -41,7 +41,7 @@
 @mixin list-reset {
   @include indent-reset;
 
-  list-style: none;
+  list-style-type: none;
 }
 
 @mixin btn-reset {

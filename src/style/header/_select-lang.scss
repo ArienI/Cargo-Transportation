@@ -1,0 +1,77 @@
+.select-lang {
+  position: relative;
+
+  &__btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  &__list {
+    display: none;
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    position: absolute;
+    top: calc(100% - 5px);
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--light-yellow-color);
+    z-index: 2;
+
+    &.is-visible {
+      display: block;
+    }
+  }
+
+  &__item {
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--black-color);
+    margin-right: 10px;
+
+    &--active {
+      color: var(--orange-color);
+    }
+  }
+
+  @include media-min ($sm) {
+    &__btn {
+      display: none;
+    }
+
+    &__list {
+      position: static;
+      display: flex;
+      box-shadow: none;
+      background-color: transparent;
+
+      &.is-visible {
+        position: static;
+        display: flex;
+        box-shadow: none;
+        background-color: transparent;
+      }
+    }
+
+    &__item {
+      margin-bottom: 0;
+    }
+  }
+
+  @include media-min ($xl) {
+    &__link {
+      transition: color .15s ease-in-out;
+
+      &:hover {
+        color: var(--orange-color);
+      }
+    }
+  }
+}

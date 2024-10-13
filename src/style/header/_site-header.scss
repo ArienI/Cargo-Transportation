@@ -14,54 +14,9 @@
     align-items: center;
   }
 
-  &__dropdown {
-    position: relative;
-  }
-
-  &__dropdown-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-  }
-
-  &__lang-list {
-    display: none;
-    margin: 0;
-    padding: 10px;
-    list-style-type: none;
-    position: absolute;
-    top: calc(100% - 5px);
-    left: 0;
-    right: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: var(--light-yellow-color);
-    z-index: 2;
-
-    &.is-visible {
-      display: block;
-    }
-  }
-
-  &__lang-item {
-    margin-bottom: 10px;
-  }
-
-  &__lang-link {
-    font-size: 20px;
-    line-height: 28px;
-    color: var(--black-color);
-    margin-right: 10px;
-
-    &--active {
-      color: var(--orange-color);
-    }
-  }
-
   &__social-list {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+    @include list-reset;
+
     display: flex;
 
     &>* {
@@ -101,30 +56,6 @@
     overflow: hidden;
   }
 
-  @include media-min ($sm) {
-    &__dropdown-btn {
-      display: none;
-    }
-
-    &__lang-list {
-      position: static;
-      display: flex;
-      box-shadow: none;
-      background-color: transparent;
-
-      &.is-visible {
-        position: static;
-        display: flex;
-        box-shadow: none;
-        background-color: transparent;
-      }
-    }
-
-    &__lang-item {
-      margin-bottom: 0;
-    }
-  }
-
   @include media-min ($md) {
     &__logo-link {
 
@@ -136,16 +67,6 @@
     &__nav {
       display: block;
       flex-basis: auto;
-    }
-  }
-
-  @include media-min ($xl) {
-    &__lang-link {
-      transition: color .15s ease-in-out;
-
-      &:hover {
-        color: var(--orange-color);
-      }
     }
   }
 }

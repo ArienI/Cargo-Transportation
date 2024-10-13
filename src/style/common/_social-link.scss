@@ -1,6 +1,11 @@
   .social-link {
     display: inline-flex;
 
+    & svg {
+      width: var(--icon-size, var(--icon-width, 40px));
+      height: var(--icon-size, var(--icon-height, 40px));
+    }
+
     @include media-min ($lg) {
       transition: filter .15s ease-in-out;
 

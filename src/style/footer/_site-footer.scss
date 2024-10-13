@@ -13,10 +13,15 @@
   }
 
   &__social-list {
-    padding: 0;
-    list-style-type: none;
+    @include list-reset;
+
     display: flex;
     justify-content: flex-end;
+
+    &>* {
+      display: flex;
+      margin-left: 10px;
+    }
   }
 
   &__social-link {
