@@ -678,7 +678,7 @@ a {
   width: 130%;
   height: 100%;
 
-  background-image: url("../img/image-30-09-24-07-02.webp");
+  background-image: url("../img/DSC_0137.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -910,7 +910,8 @@ a {
 
   color: var(--white-color);
 
-  background-image: url("../img/3.webp");
+  background-color: var(--gray-color);
+  background-image: url("../img/2.jpg");
   border-bottom-right-radius: 50px;
 }
 .timetable__text {
