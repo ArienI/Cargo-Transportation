@@ -586,6 +586,9 @@ a {
 
   border-bottom: 2px solid var(--light-yellow-color);
 }
+.site-footer__logo-container {
+  text-align: center;
+}
 .site-footer__logo {
   display: inline-flex;
 }
@@ -594,7 +597,8 @@ a {
 }
 .site-footer__social-list {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 0;
   padding: 0;
 
@@ -616,6 +620,14 @@ a {
   padding: 0 10px;
 
   text-align: right;
+}
+@media (min-width: 768px) {
+  .site-footer__logo-container {
+    text-align: right;
+  }
+  .site-footer__social-list {
+    justify-content: flex-start;
+  }
 }
 @media (min-width: 992px) {
   .site-footer__social-list {
