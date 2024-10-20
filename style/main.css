@@ -933,3 +933,42 @@ a {
   text-align: center;
   text-transform: uppercase;
 }
+
+.excursion-title {
+  text-align: center;
+}
+
+.excursion-banner {
+  position: relative;
+}
+.excursion-banner__img {
+  width: 100%;
+  height: 250px;
+
+  background-image: url("../../../img/excursions/excursion.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
+@media (min-width: 768px) {
+  .excursion-banner__img {
+    height: 450px;
+  }
+}
+@media (min-width: 992px) {
+  .excursion-banner__img {
+    height: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .excursion-banner__img {
+    height: 700px;
+  }
+}
+@media (min-width: 1600px) {
+  .excursion-banner__img {
+    height: 900px;
+  }
+}
