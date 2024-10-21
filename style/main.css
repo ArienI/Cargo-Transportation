@@ -1132,8 +1132,8 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  -webkit-filter: brightness(0.8);
-          filter: brightness(0.8);
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
 }
 @media (min-width: 768px) {
   .prevoz-banner__img {
