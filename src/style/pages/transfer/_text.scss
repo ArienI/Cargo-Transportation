@@ -1,0 +1,9 @@
+ .transfer-text {
+   font-size: 18px;
+   text-indent: 30px;
+   line-height: 1.6;
+
+   @include media-min ($lg) {
+     font-size: 22px;
+   }
+ }
