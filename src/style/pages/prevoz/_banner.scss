@@ -8,7 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: brightness(0.8);
+    filter: brightness(0.6);
 
     @include media-min($md) {
       height: 350px;
