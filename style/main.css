@@ -1007,3 +1007,116 @@ a {
     font-size: 22px;
   }
 }
+
+.transfer-title {
+  text-align: center;
+}
+
+.transfer-banner {
+  position: relative;
+}
+.transfer-banner__img {
+  width: 100%;
+  height: 250px;
+
+  background-image: url("../img/airport/airports.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
+@media (min-width: 768px) {
+  .transfer-banner__img {
+    height: 350px;
+  }
+}
+@media (min-width: 992px) {
+  .transfer-banner__img {
+    height: 450px;
+  }
+}
+@media (min-width: 1200px) {
+  .transfer-banner__img {
+    height: 600px;
+  }
+}
+@media (min-width: 1600px) {
+  .transfer-banner__img {
+    height: 800px;
+  }
+}
+
+.transfer-list {
+  list-style: none;
+  text-align: center;
+}
+.transfer-list__item {
+  position: relative;
+
+  padding-bottom: 5px;
+
+  font-size: 20px;
+}
+.transfer-list__item::before {
+  content: "◈";
+
+  margin-right: 5px;
+
+  color: var(--orange-color);
+}
+@media (min-width: 992px) {
+  .transfer-list__item {
+    font-size: 22px;
+  }
+}
+
+.transfer-text {
+  font-size: 18px;
+  line-height: 1.6;
+  text-indent: 30px;
+}
+@media (min-width: 992px) {
+  .transfer-text {
+    font-size: 22px;
+  }
+}
+
+.prevoz-title {
+  text-align: center;
+}
+
+.prevoz-list {
+  list-style: none;
+  text-align: center;
+}
+.prevoz-list__item {
+  position: relative;
+
+  padding-bottom: 5px;
+
+  font-size: 20px;
+}
+.prevoz-list__item::before {
+  content: "◈";
+
+  margin-right: 5px;
+
+  color: var(--orange-color);
+}
+@media (min-width: 992px) {
+  .prevoz-list__item {
+    font-size: 22px;
+  }
+}
+
+.prevoz-text {
+  font-size: 18px;
+  line-height: 1.6;
+  text-indent: 30px;
+}
+@media (min-width: 992px) {
+  .prevoz-text {
+    font-size: 22px;
+  }
+}
