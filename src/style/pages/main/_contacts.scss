@@ -5,7 +5,7 @@
   padding: 15px 0;
 
   &__phone {
-    font-size: 28px;
+    font-size: 18px;
     text-decoration: none;
     color: var(--white-color);
     background-color: var(--orange-color);
@@ -29,8 +29,14 @@
     }
   }
 
+  @include media-min ($md) {
+    &__phone {
+      font-size: 26px;
+    }
+  }
+
   @include media-min ($lg) {
-    &__contact {
+    &__contacts {
       transition: background-color .2s ease-in-out;
 
       &:hover {
@@ -50,9 +56,8 @@
   }
 
   @include media-min($xxl) {
-    &__contact {
-      font-size: 28px;
-      margin-bottom: 40px;
+    &__phone {
+      font-size: 36px;
     }
   }
 }
