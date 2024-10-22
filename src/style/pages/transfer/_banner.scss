@@ -1,29 +1,53 @@
 .transfer-banner {
+  padding: 60px 0;
   position: relative;
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--gray-color);
+  min-height: 500px;
+  align-items: center;
 
   &__img {
-    background-image: url('../img/airport/airports.webp');
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 250px;
+    height: 100%;
+    background-image: url('../img/airport/airports.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: brightness(0.8);
+    filter: brightness(0.4);
+    z-index: 1;
+  }
 
-    @include media-min($md) {
-      height: 350px;
-    }
+  &__title {
+    position: relative;
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    text-shadow: -2px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    z-index: 2;
+  }
 
-    @include media-min($lg) {
-      height: 450px;
-    }
+  @include media-min($md) {
+    min-height: 600px;
 
-    @include media-min($xl) {
-      height: 600px;
+    &__title {
+      font-size: 48px;
+      margin-bottom: 40px;
     }
+  }
 
-    @include media-min($xxl) {
-      height: 800px;
+  @include media-min($xxl) {
+    min-height: 750px;
+
+    &__title {
+      font-size: 64px;
     }
+  }
+
+  @include media-min($fhd) {
+    min-height: 850px;
   }
 }
