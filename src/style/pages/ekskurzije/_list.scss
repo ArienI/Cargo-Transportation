@@ -1,20 +1,22 @@
 .excursion-list {
-  list-style: none;
-  text-align: center;
-
   &__item {
-    font-size: 20px;
     position: relative;
+    list-style: none;
+    font-size: 20px;
     padding-bottom: 5px;
+    text-shadow: -2px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    z-index: 2;
 
-    &::before {
-      content: '◈';
-      color: var(--orange-color);
-      margin-right: 5px;
+    @include media-min($lg) {
+      font-size: 25px;
     }
 
-    @include media-min ($lg) {
-      font-size: 22px;
+    @include media-min($md) {
+      font-size: 30px;
+    }
+
+    @include media-min($xxl) {
+      font-size: 40px;
     }
   }
 }
