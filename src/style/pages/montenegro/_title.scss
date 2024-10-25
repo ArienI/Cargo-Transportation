@@ -1,0 +1,17 @@
+.info-title {
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+
+  @include media-min($lg) {
+    font-size: 30px;
+  }
+
+  @include media-min($xl) {
+    font-size: 40px;
+  }
+
+  @include media-min($xxl) {
+    font-size: 50px;
+  }
+}

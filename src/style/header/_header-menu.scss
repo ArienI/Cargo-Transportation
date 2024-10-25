@@ -12,8 +12,6 @@
   &__link {
     display: block;
     color: var(--black-color);
-    padding-right: 5px;
-    border-right: 3px solid var(--light-yellow-color);
   }
 
   @include media-min ($md) {
@@ -23,6 +21,12 @@
     &__item {
       border-bottom: none;
       margin-left: 5px;
+      padding-right: 5px;
+      border-right: none;
+
+      &:not(:last-child) {
+        border-right: 3px solid var(--light-yellow-color)
+      }
     }
 
     &__link {
