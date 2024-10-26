@@ -11,11 +11,11 @@ import {
   initSliders
 } from './modules/slider.js';
 
-document.addEventListener( 'DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   initSiteSettings();
-  window.addEventListener( 'load', () => {
+  window.addEventListener('load', () => {
     initHeaderMenu();
     initLangDropdown();
     initSliders();
-  } );
-} );
+  });
+});

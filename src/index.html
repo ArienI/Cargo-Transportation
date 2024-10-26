@@ -23,6 +23,19 @@
 
     @include('html/common/scroll-top.html')
   </div>
+  <script>
+    // Инициализация AOS
+    document.addEventListener('DOMContentLoaded', function () {
+      AOS.init({
+        offset: 120, // Смещение 
+        delay: 0, // Задержка 
+        duration: 800, // Длительность
+        easing: 'ease', // Тип easing
+        once: true // Анимация только один раз
+      });
+    });
+  </script>
+
   @include('html/service/scripts.html')
 </body>
 
