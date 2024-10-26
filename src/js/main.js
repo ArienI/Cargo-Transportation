@@ -10,6 +10,9 @@ import {
 import {
   initSliders
 } from './modules/slider.js';
+import {
+  initAOS
+} from './modules/aos-init.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   initSiteSettings();
@@ -17,5 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initHeaderMenu();
     initLangDropdown();
     initSliders();
+    initAOS();
   });
 });
