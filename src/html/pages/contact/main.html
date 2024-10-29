@@ -8,27 +8,31 @@
           <h1 class="contact-banner__title">Isplanirajte putovanje, preseljenje, izlet</h1>
         </div>
       </div>
-
     </div>
   </div>
 
   <div class="contact-info container">
-    <h2 class="contact-info__text pt-3 pt-lg-4">
+    <h2 class="contact-info__heading pt-3 pt-lg-4">
       Kontakti za komunikaciju sa nama:
     </h2>
-    <ul class="contact-info__contacts">
-      <li class="contact-info__contact pb-3 pb-lg-4">
-        <img class="contact-info__img pr-2" src="../img/sprite/telephone.svg" alt="tel">
-        <a class="contact-info__link" href="#">(+382)69-738-599</a>
+
+    <ul class="contact-info__list">
+      <li class="contact-item d-flex pb-3 pb-lg-4">
+        <a class="contact-item__link" href="#">
+          <img class="contact-item__icon" src="img/social/tel.svg" alt="tel">
+        </a>
+        <p class="contact-item__text">(+382)69-738-599</p>
       </li>
 
-      <li class="contact-info__contact pb-3 pb-lg-4">
-        <img class="contact-info__img pr-2" src="../img/sprite/mail.svg" alt="mail">
-        <a class="contact-info__link" href="#">transferoxana@gmail.com</a>
+      <li class="contact-item d-flex pb-3 pb-lg-4">
+        <a class="contact-item__link" href="#">
+          <img class="contact-item__icon" src="img/social/mail.svg" alt="mail">
+        </a>
+        <p class="contact-item__text">transferoxana@gmail.com</p>
       </li>
 
-      <li class="contact-info__contact pb-3 pb-lg-4">
-        <ul class="contacts__socials">
+      <li class="contact-item pb-3 pb-lg-4">
+        <ul class="contact-item__socials">
           @include('../../common/social-link.html', {icon: 'tg'})
           @include('../../common/social-link.html', {icon: 'wb'})
           @include('../../common/social-link.html', {icon: 'vb'})
