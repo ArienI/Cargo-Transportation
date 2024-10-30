@@ -22,6 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 10px;
 
     &>* {
       &:not(:first-child) {
@@ -33,6 +34,10 @@
   @include media-min ($sm) {
     &__phone {
       font-size: 20px;
+    }
+
+    &__socials {
+      padding-right: 0;
     }
   }
 
