@@ -23,6 +23,7 @@
 
     &.is-visible {
       display: block;
+      z-index: 3;
     }
   }
 

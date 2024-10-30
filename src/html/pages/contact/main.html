@@ -18,14 +18,14 @@
 
     <ul class="contact-info__list">
       <li class="contact-item d-flex pb-3 pb-lg-4">
-        <a class="contact-item__link" href="#">
+        <a class="contact-item__link" href="tel:+38269738599">
           <img class="contact-item__icon" src="img/social/tel.svg" alt="tel">
         </a>
         <p class="contact-item__text">(+382)69-738-599</p>
       </li>
 
       <li class="contact-item d-flex pb-3 pb-lg-4">
-        <a class="contact-item__link" href="#">
+        <a class="contact-item__link" href="mailto:transferoxana@gmail.com">
           <img class="contact-item__icon" src="img/social/mail.svg" alt="mail">
         </a>
         <p class="contact-item__text">transferoxana@gmail.com</p>
@@ -33,9 +33,9 @@
 
       <li class="contact-item pb-3 pb-lg-4">
         <ul class="contact-item__socials">
-          @include('../../common/social-link.html', {icon: 'tg'})
-          @include('../../common/social-link.html', {icon: 'wb'})
-          @include('../../common/social-link.html', {icon: 'vb'})
+          @include('../../common/social-link.html', {icon: 'tg', link: 'https://t.me/+38269738599'})
+          @include('../../common/social-link.html', {icon: 'wb', link: 'https://wa.me/38269738599'})
+          @include('../../common/social-link.html', {icon: 'vb', link: 'viber://chat?number=%2B38269738599'})
           @include('../../common/social-link.html', {icon: 'fb'})
           @include('../../common/social-link.html', {icon: 'inst'})
         </ul>
