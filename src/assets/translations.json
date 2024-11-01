@@ -1,0 +1,274 @@
+[
+  {
+    "id": "main-banner-title",
+    "lang": {
+      "sr": "Prevoz za nemačku, transfer, exkursije",
+      "en": "Transport to Germany, transfer, excursions",
+      "de": "Transport nach Deutschland, Transfer, Exkursionen",
+      "fr": "Transport pour l'Allemagne, transfert, excursions",
+      "ru": "Транспорт в Германию, трансфер, экскурсии",
+      "tr": "Almanya'ya Taşıma, transfer, geziler",
+      "sq": "Transport për Gjermani, transfer, ekskursione"
+    }
+  },
+  {
+    "id": "banner-slide-transport-germany",
+    "lang": {
+      "sr": "Prevoz za Nemačku",
+      "en": "Transport to Germany",
+      "de": "Transport nach Deutschland",
+      "fr": "Transport pour l'Allemagne",
+      "ru": "Транспорт в Германию",
+      "tr": "Almanya'ya Taşıma",
+      "sq": "Transport për Gjermani"
+    }
+  },
+  {
+    "id": "banner-slide-transport-list",
+    "lang": {
+      "sr": [
+        "Crna Gora",
+        "Hrvatska",
+        "Srbija",
+        "Slovenija",
+        "Avstrija"
+      ],
+      "en": [
+        "Montenegro",
+        "Croatia",
+        "Serbia",
+        "Slovenia",
+        "Austria"
+      ],
+      "de": [
+        "Montenegro",
+        "Kroatien",
+        "Serbien",
+        "Slowenien",
+        "Österreich"
+      ],
+      "fr": [
+        "Monténégro",
+        "Croatie",
+        "Serbie",
+        "Slovénie",
+        "Autriche"
+      ],
+      "ru": [
+        "Черногория",
+        "Хорватия",
+        "Сербия",
+        "Словения",
+        "Австрия"
+      ],
+      "tr": [
+        "Karadağ",
+        "Hırvatistan",
+        "Sırbistan",
+        "Slovenya",
+        "Avusturya"
+      ],
+      "sq": [
+        "Mali i Zi",
+        "Kroacia",
+        "Serbia",
+        "Sllovenia",
+        "Austri"
+      ]
+    }
+  },
+  {
+    "id": "banner-slide-transfer-title",
+    "lang": {
+      "sr": "Transfer",
+      "en": "Transfer",
+      "de": "Transfer",
+      "fr": "Transfert",
+      "ru": "Трансфер",
+      "tr": "Transfer",
+      "sq": "Transfer"
+    }
+  },
+  {
+    "id": "banner-slide-transfer-list",
+    "lang": {
+      "sr": [
+        "aerodrom Podgorica",
+        "aerodrom Tivat",
+        "aerodrom Dubrovnik",
+        "aerodrom Priština",
+        "aerodrom Beograd",
+        "aerodrom Tirana",
+        "aerodrom Sarajevo"
+      ],
+      "en": [
+        "Podgorica Airport",
+        "Tivat Airport",
+        "Dubrovnik Airport",
+        "Pristina Airport",
+        "Belgrade Airport",
+        "Tirana Airport",
+        "Sarajevo Airport"
+      ],
+      "de": [
+        "Flughafen Podgorica",
+        "Flughafen Tivat",
+        "Flughafen Dubrovnik",
+        "Flughafen Pristina",
+        "Flughafen Belgrad",
+        "Flughafen Tirana",
+        "Flughafen Sarajevo"
+      ],
+      "fr": [
+        "Aéroport de Podgorica",
+        "Aéroport de Tivat",
+        "Aéroport de Dubrovnik",
+        "Aéroport de Pristina",
+        "Aéroport de Belgrade",
+        "Aéroport de Tirana",
+        "Aéroport de Sarajevo"
+      ],
+      "ru": [
+        "аэропорт Подгорица",
+        "аэропорт Тиват",
+        "аэропорт Дубровник",
+        "аэропорт Приштина",
+        "аэропорт Белград",
+        "аэропорт Тирана",
+        "аэропорт Сараево"
+      ],
+      "tr": [
+        "Podgorica Havalimanı",
+        "Tivat Havalimanı",
+        "Dubrovnik Havalimanı",
+        "Priştine Havalimanı",
+        "Belgrad Havalimanı",
+        "Tiran Havalimanı",
+        "Saraybosna Havalimanı"
+      ],
+      "sq": [
+        "Aeroporti i Podgoricës",
+        "Aeroporti i Tivatit",
+        "Aeroporti i Dubrovnikut",
+        "Aeroporti i Prishtinës",
+        "Aeroporti i Beogradit",
+        "Aeroporti i Tiranës",
+        "Aeroporti i Sarajevës"
+      ]
+    }
+  },
+  {
+    "id": "footer-navigation",
+    "lang": {
+      "sr": [
+        "Prevoz za Nemačku",
+        "Transfer",
+        "Ekskurzije",
+        "Crna Gora",
+        "Kontakt"
+      ],
+      "en": [
+        "Transport to Germany",
+        "Transfer",
+        "Excursions",
+        "Montenegro",
+        "Contact"
+      ],
+      "de": [
+        "Transport nach Deutschland",
+        "Transfer",
+        "Exkursionen",
+        "Montenegro",
+        "Kontakt"
+      ],
+      "fr": [
+        "Transport pour l'Allemagne",
+        "Transfert",
+        "Excursions",
+        "Monténégro",
+        "Contact"
+      ],
+      "ru": [
+        "Транспорт в Германию",
+        "Трансфер",
+        "Экскурсии",
+        "Черногория",
+        "Контакт"
+      ],
+      "tr": [
+        "Almanya'ya Taşıma",
+        "Transfer",
+        "Geziler",
+        "Karadağ",
+        "İletişim"
+      ],
+      "sq": [
+        "Transport për Gjermani",
+        "Transfer",
+        "Ekskursione",
+        "Mali i Zi",
+        "Kontakt"
+      ]
+    }
+  },
+  {
+    "id": "definition-transfer-text",
+    "lang": {
+      "sr": "Kombi Vito Mercedes 8+1 u svakom momentu spreman za vas.",
+      "en": "Mercedes Vito 8+1 van ready for you anytime.",
+      "de": "Mercedes Vito 8+1 Kleinbus ist jederzeit für Sie bereit.",
+      "fr": "Mercedes Vito 8+1 est prêt pour vous à tout moment.",
+      "ru": "Микроавтобус Mercedes Vito 8+1 готов для вас в любое время.",
+      "tr": "Mercedes Vito 8+1 minibüs her an hazırdır.",
+      "sq": "Mercedes Vito 8+1 furgoni është gati për ju në çdo moment."
+    }
+  },
+  {
+    "id": "contacts-phone-label",
+    "lang": {
+      "sr": "Broj telefona",
+      "en": "Phone number",
+      "de": "Telefonnummer",
+      "fr": "Numéro de téléphone",
+      "ru": "Номер телефона",
+      "tr": "Telefon numarası",
+      "sq": "Numri i telefonit"
+    }
+  },
+  {
+    "id": "service-description-safety",
+    "lang": {
+      "sr": "Bezbednost i udobnost naš je prioritet!",
+      "en": "Safety and comfort are our priority!",
+      "de": "Sicherheit und Komfort sind unsere Priorität!",
+      "fr": "La sécurité et le confort sont notre priorité!",
+      "ru": "Безопасность и комфорт — наш приоритет!",
+      "tr": "Güvenlik ve konfor önceliğimizdir!",
+      "sq": "Siguria dhe komoditeti janë prioriteti ynë!"
+    }
+  },
+  {
+    "id": "service-description-experience",
+    "lang": {
+      "sr": "Nasi vozaci poseduju visegodisnje iskustvo, profesionalni,licenzirani od strane ministarstva saobracaja.",
+      "en": "Our drivers have years of experience, are professional and licensed by the Ministry of Transport.",
+      "de": "Unsere Fahrer haben langjährige Erfahrung, sind professionell und vom Verkehrsministerium lizenziert.",
+      "fr": "Nos conducteurs ont des années d'expérience, sont professionnels et agréés par le Ministère des Transports.",
+      "ru": "Наши водители имеют многолетний опыт, являются профессионалами и лицензированы Министерством транспорта.",
+      "tr": "Sürücülerimiz yılların deneyimine sahip, profesyonel ve Ulaştırma Bakanlığı tarafından lisanslıdır.",
+      "sq": "Shoferët tanë kanë përvojë shumëvjeçare, janë profesional dhe të licencuar nga Ministria e Transportit."
+    }
+  },
+  {
+    "id": "footer-copyright",
+    "lang": {
+      "sr": "Sva prava zadržana.",
+      "en": "All rights reserved.",
+      "de": "Alle Rechte vorbehalten.",
+      "fr": "Tous droits réservés.",
+      "ru": "Все права защищены.",
+      "tr": "Tüm hakları saklıdır.",
+      "sq": "Të gjitha të drejtat e rezervuara."
+    }
+  }
+]

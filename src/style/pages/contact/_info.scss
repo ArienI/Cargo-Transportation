@@ -1,0 +1,23 @@
+.contact-info {
+  &__heading {
+    text-align: center;
+    font-size: 20px;
+
+    @include media-min($md) {
+      font-size: 30px;
+    }
+
+    @include media-min($lg) {
+      font-size: 35px;
+    }
+
+    @include media-min($xxl) {
+      font-size: 40px;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+}

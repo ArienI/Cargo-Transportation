@@ -10,12 +10,16 @@ import {
 import {
   initSliders
 } from './modules/slider.js';
+import {
+  initAOS
+} from './modules/aos-init.js';
 
-document.addEventListener( 'DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   initSiteSettings();
-  window.addEventListener( 'load', () => {
+  window.addEventListener('load', () => {
     initHeaderMenu();
     initLangDropdown();
     initSliders();
-  } );
-} );
+    initAOS();
+  });
+});

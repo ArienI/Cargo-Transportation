@@ -1,0 +1,21 @@
+.info-text {
+  font-size: 18px;
+  text-indent: 30px;
+  line-height: 1.4;
+
+  @include media-min($md) {
+    font-size: 20px;
+  }
+
+  @include media-min($lg) {
+    font-size: 22px;
+  }
+
+  @include media-min($xl) {
+    font-size: 24px;
+  }
+
+  @include media-min($xxl) {
+    font-size: 30px;
+  }
+}
