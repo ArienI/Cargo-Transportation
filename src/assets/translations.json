@@ -332,6 +332,24 @@
     "tr": "Müşterilerimizin ihtiyaçlarına cevap veriyoruz ve ister bireysel bir gezi, lisanslı bir rehber veya sadece ulaşım olsun, en iyi seçenekleri sunmaya hazırız.",
     "sq": "Ne u përgjigjemi nevojave të klientëve tanë dhe jemi të gatshëm të ofrojmë opsionet më të mira për zgjidhjen e problemit tuaj, qoftë një ekskursion individual, një udhërrëfyes turistik i licencuar ose vetëm transporti."
   },
+  "plan_your_trip": {
+    "sr": "Isplanirajte putovanje, preseljenje, izlet",
+    "en": "Plan your trip, relocation, excursion",
+    "de": "Planen Sie Ihre Reise, Ihren Umzug, Ihren Ausflug",
+    "fr": "Planifiez votre voyage, déménagement, excursion",
+    "ru": "Спланируйте поездку, переезд, экскурсию",
+    "tr": "Seyahatinizi, taşınmanızı, gezinizi planlayın",
+    "sq": "Planifikoni udhëtimin, shpërnguljen, ekskursionin"
+  },
+  "contact_us": {
+    "sr": "Kontakti za komunikaciju sa nama:",
+    "en": "Contact us for communication:",
+    "de": "Kontaktieren Sie uns für die Kommunikation:",
+    "fr": "Contactez-nous pour la communication :",
+    "ru": "Контакты для связи с нами:",
+    "tr": "Bizimle iletişim için iletişim bilgileri:",
+    "sq": "Kontaktet për të komunikuar me ne:"
+  },
   "": {
     "sr": "",
     "en": "",
