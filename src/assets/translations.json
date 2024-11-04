@@ -1,274 +1,389 @@
-[
-  {
-    "id": "main-banner-title",
-    "lang": {
-      "sr": "Prevoz za nemačku, transfer, exkursije",
-      "en": "Transport to Germany, transfer, excursions",
-      "de": "Transport nach Deutschland, Transfer, Exkursionen",
-      "fr": "Transport pour l'Allemagne, transfert, excursions",
-      "ru": "Транспорт в Германию, трансфер, экскурсии",
-      "tr": "Almanya'ya Taşıma, transfer, geziler",
-      "sq": "Transport për Gjermani, transfer, ekskursione"
-    }
+{
+  "title": {
+    "sr": "Prevoz za nemačku, transfer, exkursije",
+    "en": "Transport to Germany, transfer, excursions",
+    "de": "Transport nach Deutschland, Transfer, Exkursionen",
+    "fr": "Transport pour l'Allemagne, transfert, excursions",
+    "ru": "Транспорт в Германию, трансфер, экскурсии",
+    "tr": "Almanya'ya Taşıma, transfer, geziler",
+    "sq": "Transport për Gjermani, transfer, ekskursione"
   },
-  {
-    "id": "banner-slide-transport-germany",
-    "lang": {
-      "sr": "Prevoz za Nemačku",
-      "en": "Transport to Germany",
-      "de": "Transport nach Deutschland",
-      "fr": "Transport pour l'Allemagne",
-      "ru": "Транспорт в Германию",
-      "tr": "Almanya'ya Taşıma",
-      "sq": "Transport për Gjermani"
-    }
+  "transport-germany": {
+    "sr": "Prevoz za Nemačku",
+    "en": "Transport to Germany",
+    "de": "Transport nach Deutschland",
+    "fr": "Transport pour l'Allemagne",
+    "ru": "Транспорт в Германию",
+    "tr": "Almanya'ya Taşıma",
+    "sq": "Transport për Gjermani"
   },
-  {
-    "id": "banner-slide-transport-list",
-    "lang": {
-      "sr": [
-        "Crna Gora",
-        "Hrvatska",
-        "Srbija",
-        "Slovenija",
-        "Avstrija"
-      ],
-      "en": [
-        "Montenegro",
-        "Croatia",
-        "Serbia",
-        "Slovenia",
-        "Austria"
-      ],
-      "de": [
-        "Montenegro",
-        "Kroatien",
-        "Serbien",
-        "Slowenien",
-        "Österreich"
-      ],
-      "fr": [
-        "Monténégro",
-        "Croatie",
-        "Serbie",
-        "Slovénie",
-        "Autriche"
-      ],
-      "ru": [
-        "Черногория",
-        "Хорватия",
-        "Сербия",
-        "Словения",
-        "Австрия"
-      ],
-      "tr": [
-        "Karadağ",
-        "Hırvatistan",
-        "Sırbistan",
-        "Slovenya",
-        "Avusturya"
-      ],
-      "sq": [
-        "Mali i Zi",
-        "Kroacia",
-        "Serbia",
-        "Sllovenia",
-        "Austri"
-      ]
-    }
+  "transfer": {
+    "sr": "Transfer",
+    "en": "Transfer",
+    "de": "Transfer",
+    "fr": "Transfert",
+    "ru": "Трансфер",
+    "tr": "Transfer",
+    "sq": "Transfer"
   },
-  {
-    "id": "banner-slide-transfer-title",
-    "lang": {
-      "sr": "Transfer",
-      "en": "Transfer",
-      "de": "Transfer",
-      "fr": "Transfert",
-      "ru": "Трансфер",
-      "tr": "Transfer",
-      "sq": "Transfer"
-    }
+  "excursions": {
+    "sr": "Exkursije",
+    "en": "Excursions",
+    "de": "Exkursionen",
+    "fr": "Excursions",
+    "ru": "Экскурсии",
+    "tr": "Geziler",
+    "sq": "Ekskursione"
   },
-  {
-    "id": "banner-slide-transfer-list",
-    "lang": {
-      "sr": [
-        "aerodrom Podgorica",
-        "aerodrom Tivat",
-        "aerodrom Dubrovnik",
-        "aerodrom Priština",
-        "aerodrom Beograd",
-        "aerodrom Tirana",
-        "aerodrom Sarajevo"
-      ],
-      "en": [
-        "Podgorica Airport",
-        "Tivat Airport",
-        "Dubrovnik Airport",
-        "Pristina Airport",
-        "Belgrade Airport",
-        "Tirana Airport",
-        "Sarajevo Airport"
-      ],
-      "de": [
-        "Flughafen Podgorica",
-        "Flughafen Tivat",
-        "Flughafen Dubrovnik",
-        "Flughafen Pristina",
-        "Flughafen Belgrad",
-        "Flughafen Tirana",
-        "Flughafen Sarajevo"
-      ],
-      "fr": [
-        "Aéroport de Podgorica",
-        "Aéroport de Tivat",
-        "Aéroport de Dubrovnik",
-        "Aéroport de Pristina",
-        "Aéroport de Belgrade",
-        "Aéroport de Tirana",
-        "Aéroport de Sarajevo"
-      ],
-      "ru": [
-        "аэропорт Подгорица",
-        "аэропорт Тиват",
-        "аэропорт Дубровник",
-        "аэропорт Приштина",
-        "аэропорт Белград",
-        "аэропорт Тирана",
-        "аэропорт Сараево"
-      ],
-      "tr": [
-        "Podgorica Havalimanı",
-        "Tivat Havalimanı",
-        "Dubrovnik Havalimanı",
-        "Priştine Havalimanı",
-        "Belgrad Havalimanı",
-        "Tiran Havalimanı",
-        "Saraybosna Havalimanı"
-      ],
-      "sq": [
-        "Aeroporti i Podgoricës",
-        "Aeroporti i Tivatit",
-        "Aeroporti i Dubrovnikut",
-        "Aeroporti i Prishtinës",
-        "Aeroporti i Beogradit",
-        "Aeroporti i Tiranës",
-        "Aeroporti i Sarajevës"
-      ]
-    }
+  "montenegro": {
+    "sr": "Crna Gora",
+    "en": "Montenegro",
+    "de": "Montenegro",
+    "fr": "Monténégro",
+    "ru": "Черногория",
+    "tr": "Karadağ",
+    "sq": "Mali i Zi"
   },
-  {
-    "id": "footer-navigation",
-    "lang": {
-      "sr": [
-        "Prevoz za Nemačku",
-        "Transfer",
-        "Ekskurzije",
-        "Crna Gora",
-        "Kontakt"
-      ],
-      "en": [
-        "Transport to Germany",
-        "Transfer",
-        "Excursions",
-        "Montenegro",
-        "Contact"
-      ],
-      "de": [
-        "Transport nach Deutschland",
-        "Transfer",
-        "Exkursionen",
-        "Montenegro",
-        "Kontakt"
-      ],
-      "fr": [
-        "Transport pour l'Allemagne",
-        "Transfert",
-        "Excursions",
-        "Monténégro",
-        "Contact"
-      ],
-      "ru": [
-        "Транспорт в Германию",
-        "Трансфер",
-        "Экскурсии",
-        "Черногория",
-        "Контакт"
-      ],
-      "tr": [
-        "Almanya'ya Taşıma",
-        "Transfer",
-        "Geziler",
-        "Karadağ",
-        "İletişim"
-      ],
-      "sq": [
-        "Transport për Gjermani",
-        "Transfer",
-        "Ekskursione",
-        "Mali i Zi",
-        "Kontakt"
-      ]
-    }
+  "contact": {
+    "sr": "Kontakt",
+    "en": "Contact",
+    "de": "Kontakt",
+    "fr": "Contact",
+    "ru": "Контакты",
+    "tr": "İletişim",
+    "sq": "Kontakt"
   },
-  {
-    "id": "definition-transfer-text",
-    "lang": {
-      "sr": "Kombi Vito Mercedes 8+1 u svakom momentu spreman za vas.",
-      "en": "Mercedes Vito 8+1 van ready for you anytime.",
-      "de": "Mercedes Vito 8+1 Kleinbus ist jederzeit für Sie bereit.",
-      "fr": "Mercedes Vito 8+1 est prêt pour vous à tout moment.",
-      "ru": "Микроавтобус Mercedes Vito 8+1 готов для вас в любое время.",
-      "tr": "Mercedes Vito 8+1 minibüs her an hazırdır.",
-      "sq": "Mercedes Vito 8+1 furgoni është gati për ju në çdo moment."
-    }
+  "croatia": {
+    "sr": "Hrvatska",
+    "en": "Croatia",
+    "de": "Kroatien",
+    "fr": "Croatie",
+    "ru": "Хорватия",
+    "tr": "Hırvatistan",
+    "sq": "Kroacia"
   },
-  {
-    "id": "contacts-phone-label",
-    "lang": {
-      "sr": "Broj telefona",
-      "en": "Phone number",
-      "de": "Telefonnummer",
-      "fr": "Numéro de téléphone",
-      "ru": "Номер телефона",
-      "tr": "Telefon numarası",
-      "sq": "Numri i telefonit"
-    }
+  "serbia": {
+    "sr": "Srbija",
+    "en": "Serbia",
+    "de": "Serbien",
+    "fr": "Serbie",
+    "ru": "Сербия",
+    "tr": "Sırbistan",
+    "sq": "Serbia"
   },
-  {
-    "id": "service-description-safety",
-    "lang": {
-      "sr": "Bezbednost i udobnost naš je prioritet!",
-      "en": "Safety and comfort are our priority!",
-      "de": "Sicherheit und Komfort sind unsere Priorität!",
-      "fr": "La sécurité et le confort sont notre priorité!",
-      "ru": "Безопасность и комфорт — наш приоритет!",
-      "tr": "Güvenlik ve konfor önceliğimizdir!",
-      "sq": "Siguria dhe komoditeti janë prioriteti ynë!"
-    }
+  "slovenia": {
+    "sr": "Slovenija",
+    "en": "Slovenia",
+    "de": "Slowenien",
+    "fr": "Slovénie",
+    "ru": "Словения",
+    "tr": "Slovenya",
+    "sq": "Sllovenia"
   },
-  {
-    "id": "service-description-experience",
-    "lang": {
-      "sr": "Nasi vozaci poseduju visegodisnje iskustvo, profesionalni,licenzirani od strane ministarstva saobracaja.",
-      "en": "Our drivers have years of experience, are professional and licensed by the Ministry of Transport.",
-      "de": "Unsere Fahrer haben langjährige Erfahrung, sind professionell und vom Verkehrsministerium lizenziert.",
-      "fr": "Nos conducteurs ont des années d'expérience, sont professionnels et agréés par le Ministère des Transports.",
-      "ru": "Наши водители имеют многолетний опыт, являются профессионалами и лицензированы Министерством транспорта.",
-      "tr": "Sürücülerimiz yılların deneyimine sahip, profesyonel ve Ulaştırma Bakanlığı tarafından lisanslıdır.",
-      "sq": "Shoferët tanë kanë përvojë shumëvjeçare, janë profesional dhe të licencuar nga Ministria e Transportit."
-    }
+  "austria": {
+    "sr": "Austrija",
+    "en": "Austria",
+    "de": "Österreich",
+    "fr": "Autriche",
+    "ru": "Австрия",
+    "tr": "Avusturya",
+    "sq": "Austria"
   },
-  {
-    "id": "footer-copyright",
-    "lang": {
-      "sr": "Sva prava zadržana.",
-      "en": "All rights reserved.",
-      "de": "Alle Rechte vorbehalten.",
-      "fr": "Tous droits réservés.",
-      "ru": "Все права защищены.",
-      "tr": "Tüm hakları saklıdır.",
-      "sq": "Të gjitha të drejtat e rezervuara."
-    }
+  "albania": {
+    "sr": "Albanija",
+    "en": "Albania",
+    "de": "Albanien",
+    "fr": "Albanie",
+    "ru": "Албания",
+    "tr": "Arnavutluk",
+    "sq": "Shqipëria"
+  },
+  "bosnia": {
+    "sr": "Bosna i Hercegovina",
+    "en": "Bosnia and Herzegovina",
+    "de": "Bosnien und Herzegowina",
+    "fr": "Bosnie-Herzégovine",
+    "ru": "Босния и Герцеговина",
+    "tr": "Bosna Hersek",
+    "sq": "Bosnja dhe Hercegovina"
+  },
+  "podgorica_airport": {
+    "sr": "Aerodrom Podgorica",
+    "en": "Podgorica Airport",
+    "de": "Flughafen Podgorica",
+    "fr": "Aéroport de Podgorica",
+    "ru": "Аэропорт Подгорица",
+    "tr": "Podgorica Havalimanı",
+    "sq": "Aeroporti i Podgoricës"
+  },
+  "tivat_airport": {
+    "sr": "Aerodrom Tivat",
+    "en": "Tivat Airport",
+    "de": "Flughafen Tivat",
+    "fr": "Aéroport de Tivat",
+    "ru": "Аэропорт Тиват",
+    "tr": "Tivat Havalimanı",
+    "sq": "Aeroporti i Tivatit"
+  },
+  "dubrovnik_airport": {
+    "sr": "Aerodrom Dubrovnik",
+    "en": "Dubrovnik Airport",
+    "de": "Flughafen Dubrovnik",
+    "fr": "Aéroport de Dubrovnik",
+    "ru": "Аэропорт Дубровник",
+    "tr": "Dubrovnik Havalimanı",
+    "sq": "Aeroporti i Dubrovnikut"
+  },
+  "pristina_airport": {
+    "sr": "Aerodrom Priština",
+    "en": "Pristina Airport",
+    "de": "Flughafen Pristina",
+    "fr": "Aéroport de Pristina",
+    "ru": "Аэропорт Приштина",
+    "tr": "Priştine Havalimanı",
+    "sq": "Aeroporti i Prishtinës"
+  },
+  "belgrade_airport": {
+    "sr": "Aerodrom Beograd",
+    "en": "Belgrade Airport",
+    "de": "Flughafen Belgrad",
+    "fr": "Aéroport de Belgrade",
+    "ru": "Аэропорт Белград",
+    "tr": "Belgrad Havalimanı",
+    "sq": "Aeroporti i Beogradit"
+  },
+  "tirana_airport": {
+    "sr": "Aerodrom Tirana",
+    "en": "Tirana Airport",
+    "de": "Flughafen Tirana",
+    "fr": "Aéroport de Tirana",
+    "ru": "Аэропорт Тирана",
+    "tr": "Tiran Havalimanı",
+    "sq": "Aeroporti i Tiranës"
+  },
+  "sarajevo_airport": {
+    "sr": "Aerodrom Sarajevo",
+    "en": "Sarajevo Airport",
+    "de": "Flughafen Sarajevo",
+    "fr": "Aéroport de Sarajevo",
+    "ru": "Аэропорт Сараево",
+    "tr": "Saraybosna Havalimanı",
+    "sq": "Aeroporti i Sarajevës"
+  },
+  "excursions_montenegro": {
+    "sr": "Ekskurzije po Crnoj Gori",
+    "en": "Excursions in Montenegro",
+    "de": "Ausflüge in Montenegro",
+    "fr": "Excursions au Monténégro",
+    "ru": "Экскурсии по Черногорие",
+    "tr": "Karadağ'da Geziler",
+    "sq": "Ekskursione në Malin e Zi"
+  },
+  "durmitor": {
+    "sr": "Nacionalni park Durmitor",
+    "en": "Durmitor National Park",
+    "de": "Nationalpark Durmitor",
+    "fr": "Parc national de Durmitor",
+    "ru": "Национальный парк Дурмитор",
+    "tr": "Durmitor Milli Parkı",
+    "sq": "Parku Kombëtar Durmitor"
+  },
+  "cetinje": {
+    "sr": "Cetinje i Lovćen",
+    "en": "Cetinje and Lovćen",
+    "de": "Cetinje und Lovćen",
+    "fr": "Cetinje et Lovćen",
+    "ru": "Цетине и Ловчен",
+    "tr": "Cetinje ve Lovćen",
+    "sq": "Cetinje dhe Lovçen"
+  },
+  "petrovac": {
+    "sr": "Petrovac i Luštica",
+    "en": "Petrovac and Luštica",
+    "de": "Petrovac und Luštica",
+    "fr": "Petrovac et Luštica",
+    "ru": "Петровац и Луштица",
+    "tr": "Petrovac ve Luštica",
+    "sq": "Petrovac dhe Luçtica"
+  },
+  "kotor": {
+    "sr": "Kotor i Boka Kotorska",
+    "en": "Kotor and Boka Kotorska",
+    "de": "Kotor und Boka Kotorska",
+    "fr": "Kotor et Boka Kotorska",
+    "ru": "Котор и Бока Которска",
+    "tr": "Kotor ve Boka Kotorska",
+    "sq": "Kotor dhe Boka Kotorska"
+  },
+  "ostrog": {
+    "sr": "Manastir Ostrog",
+    "en": "Ostrog Monastery",
+    "de": "Kloster Ostrog",
+    "fr": "Monastère d'Ostrog",
+    "ru": "Монастырь Острог",
+    "tr": "Ostrog Manastırı",
+    "sq": "Manastiri i Ostrogut"
+  },
+  "cetinje_monastery": {
+    "sr": "Cetinjski manastir",
+    "en": "Cetinje Monastery",
+    "de": "Kloster Cetinje",
+    "fr": "Monastère de Cetinje",
+    "ru": "Цетинский монастырь",
+    "tr": "Cetinje Manastırı",
+    "sq": "Manastiri i Cetinës"
+  },
+  "moraca": {
+    "sr": "Manastir Morača",
+    "en": "Morača Monastery",
+    "de": "Kloster Morača",
+    "fr": "Monastère de Morača",
+    "ru": "Монастырь Морача",
+    "tr": "Moraça Manastırı",
+    "sq": "Manastiri i Moraçës"
+  },
+  "individual_excursion": {
+    "sr": "Individualne ture ekskurzija",
+    "en": "Individual tour excursion",
+    "de": "Individuelle Ausflugstour",
+    "fr": "Excursion en tour individuel",
+    "ru": "Индивидуальные экскурсионные туры",
+    "tr": "Bireysel tur gezisi",
+    "sq": "Ekskursion tur individual"
+  },
+  "transfer_request": {
+    "sr": "Vaše je da pitate, a naše da organizujemo transfer.",
+    "en": "Your job is to ask, and ours is to organize the transfer.",
+    "de": "Ihre Aufgabe ist es zu fragen, unsere ist es, den Transfer zu organisieren.",
+    "fr": "Votre rôle est de demander, et le nôtre est d'organiser le transfert.",
+    "ru": "Ваша задача — спросить, а наша — организовать трансфер.",
+    "tr": "Sormak sizin işiniz, transferi organize etmek bizim işimiz.",
+    "sq": "Detyra juaj është të pyesni, e jona të organizojmë transferin."
+  },
+  "vito_ready": {
+    "sr": "Kombi Vito Mercedes 8+1 u svakom momentu spreman za vas.",
+    "en": "Mercedes Vito van 8+1 ready for you at any moment.",
+    "de": "Mercedes Vito 8+1 jederzeit bereit für Sie.",
+    "fr": "Mercedes Vito 8+1 prêt pour vous à tout moment.",
+    "ru": "Микроавтобус Mercedes Vito 8+1 всегда готов для вас.",
+    "tr": "Mercedes Vito minibüs 8+1 her an sizin için hazır.",
+    "sq": "Mercedes Vito 8+1 është gjithmonë gati për ju."
+  },
+  "custom_recommendation": {
+    "sr": "Po vašoj želji i našoj preporuci.",
+    "en": "According to your wish and our recommendation.",
+    "de": "Nach Ihrem Wunsch und unserer Empfehlung.",
+    "fr": "Selon votre souhait et notre recommandation.",
+    "ru": "По вашему желанию и нашей рекомендации.",
+    "tr": "Sizin isteğinize ve bizim önerimize göre.",
+    "sq": "Sipas dëshirës tuaj dhe rekomandimit tonë."
+  },
+  "safety_priority": {
+    "sr": "Bezbednost i udobnost naš je prioritet!",
+    "en": "Safety and comfort are our priority!",
+    "de": "Sicherheit und Komfort sind unsere Priorität!",
+    "fr": "La sécurité et le confort sont notre priorité!",
+    "ru": "Безопасность и комфорт — наш приоритет!",
+    "tr": "Güvenlik ve konfor bizim önceliğimizdir!",
+    "sq": "Siguria dhe komoditeti janë prioriteti ynë!"
+  },
+  "new_mercedes": {
+    "sr": "U našem poslovanju koristimo nova vozila, Mercedes.",
+    "en": "In our business, we use new vehicles, Mercedes.",
+    "de": "In unserem Geschäft verwenden wir neue Fahrzeuge, Mercedes.",
+    "fr": "Dans notre entreprise, nous utilisons des véhicules neufs, Mercedes.",
+    "ru": "В нашем бизнесе мы используем новые автомобили, Mercedes.",
+    "tr": "İşimizde yeni araçlar kullanıyoruz, Mercedes.",
+    "sq": "Në biznesin tonë përdorim automjete të reja, Mercedes."
+  },
+  "licensed_drivers": {
+    "sr": "Naši vozači poseduju višegodišnje iskustvo, profesionalni, licencirani od strane ministarstva saobraćaja.",
+    "en": "Our drivers have years of experience, are professional, and licensed by the Ministry of Transport.",
+    "de": "Unsere Fahrer verfügen über jahrelange Erfahrung, sind professionell und vom Verkehrsministerium lizenziert.",
+    "fr": "Nos chauffeurs ont de nombreuses années d'expérience, sont professionnels et agréés par le Ministère des Transports.",
+    "ru": "Наши водители имеют многолетний опыт, профессиональны и лицензированы Министерством транспорта.",
+    "tr": "Sürücülerimiz yılların deneyimine sahip, profesyonel ve Ulaştırma Bakanlığı tarafından lisanslıdır.",
+    "sq": "Shoferët tanë kanë përvojë shumëvjeçare, janë profesionistë dhe të licencuar nga Ministria e Transportit."
+  },
+  "car_disinfection": {
+    "sr": "Pre svakog polaska automobil se čisti dezinfekcionim sredstvima.",
+    "en": "Before each departure, the car is cleaned with disinfectants.",
+    "de": "Vor jeder Abfahrt wird das Auto mit Desinfektionsmitteln gereinigt.",
+    "fr": "Avant chaque départ, la voiture est nettoyée avec des désinfectants.",
+    "ru": "Перед каждой поездкой автомобиль очищается дезинфицирующими средствами.",
+    "tr": "Her yolculuktan önce araç dezenfektanlarla temizlenir.",
+    "sq": "Para çdo nisjeje, makina pastrohet me dezinfektues."
+  },
+  "individual_approach": {
+    "sr": "Individualni pristup svakom klijentu!",
+    "en": "Individual approach to each client!",
+    "de": "Individueller Ansatz für jeden Kunden!",
+    "fr": "Approche individuelle pour chaque client!",
+    "ru": "Индивидуальный подход к каждому клиенту!",
+    "tr": "Her müşteriye bireysel yaklaşım!",
+    "sq": "Qasje individuale për çdo klient!"
+  },
+  "client_support_best_options": {
+    "sr": "Našim klijentima izlazimo u susret i spremni smo da ponudimo najbolje opcije za rešenje vašeg problema, bilo da se radi o individualnom izletu, sa licenciranim turističkim vodičem ili samom prevozu.",
+    "en": "We meet our clients' needs and are ready to offer the best options to solve your problem, whether it's an individual excursion, a licensed tour guide, or just transportation.",
+    "de": "Wir kommen unseren Kunden entgegen und sind bereit, die besten Optionen zur Lösung Ihres Problems anzubieten, sei es ein individueller Ausflug, ein lizenzierter Reiseführer oder nur der Transport.",
+    "fr": "Nous répondons aux besoins de nos clients et sommes prêts à offrir les meilleures options pour résoudre votre problème, qu'il s'agisse d'une excursion individuelle, d'un guide touristique agréé ou simplement du transport.",
+    "ru": "Мы идем навстречу нашим клиентам и готовы предложить лучшие варианты для решения вашей задачи, будь то индивидуальная экскурсия, лицензированный гид или просто транспорт.",
+    "tr": "Müşterilerimizin ihtiyaçlarına cevap veriyoruz ve ister bireysel bir gezi, lisanslı bir rehber veya sadece ulaşım olsun, en iyi seçenekleri sunmaya hazırız.",
+    "sq": "Ne u përgjigjemi nevojave të klientëve tanë dhe jemi të gatshëm të ofrojmë opsionet më të mira për zgjidhjen e problemit tuaj, qoftë një ekskursion individual, një udhërrëfyes turistik i licencuar ose vetëm transporti."
+  },
+  "": {
+    "sr": "",
+    "en": "",
+    "de": "",
+    "fr": "",
+    "ru": "",
+    "tr": "",
+    "sq": ""
+  },
+  "": {
+    "sr": "",
+    "en": "",
+    "de": "",
+    "fr": "",
+    "ru": "",
+    "tr": "",
+    "sq": ""
+  },
+  "": {
+    "sr": "",
+    "en": "",
+    "de": "",
+    "fr": "",
+    "ru": "",
+    "tr": "",
+    "sq": ""
+  },
+  "": {
+    "sr": "",
+    "en": "",
+    "de": "",
+    "fr": "",
+    "ru": "",
+    "tr": "",
+    "sq": ""
+  },
+  "": {
+    "sr": "",
+    "en": "",
+    "de": "",
+    "fr": "",
+    "ru": "",
+    "tr": "",
+    "sq": ""
+  },
+  "": {
+    "sr": "",
+    "en": "",
+    "de": "",
+    "fr": "",
+    "ru": "",
+    "tr": "",
+    "sq": ""
   }
-]
+}
