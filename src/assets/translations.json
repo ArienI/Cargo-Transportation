@@ -45,13 +45,13 @@
     "sq": "Mali i Zi"
   },
   "contact": {
-    "sr": "Kontakt",
-    "en": "Contact",
-    "de": "Kontakt",
-    "fr": "Contact",
+    "sr": "Kontakti",
+    "en": "Contacts",
+    "de": "Kontakte",
+    "fr": "Contacts",
     "ru": "Контакты",
-    "tr": "İletişim",
-    "sq": "Kontakt"
+    "tr": "İletişim Bilgileri",
+    "sq": "Kontaktet"
   },
   "croatia": {
     "sr": "Hrvatska",
@@ -106,6 +106,15 @@
     "ru": "Босния и Герцеговина",
     "tr": "Bosna Hersek",
     "sq": "Bosnja dhe Hercegovina"
+  },
+  "kosovo": {
+    "sr": "Kosovo",
+    "en": "Kosovo",
+    "de": "Kosovo",
+    "fr": "Kosovo",
+    "ru": "Косово",
+    "tr": "Kosova",
+    "sq": "Kosova"
   },
   "podgorica_airport": {
     "sr": "Aerodrom Podgorica",
@@ -175,7 +184,7 @@
     "en": "Excursions in Montenegro",
     "de": "Ausflüge in Montenegro",
     "fr": "Excursions au Monténégro",
-    "ru": "Экскурсии по Черногорие",
+    "ru": "Экскурсии по Черногории",
     "tr": "Karadağ'da Geziler",
     "sq": "Ekskursione në Malin e Zi"
   },
@@ -432,66 +441,12 @@
     "sq": "Rezervoni transferimin tuaj dhe jini të sigurt se, nëse keni një orar të lirë, automjeti juaj do të jetë aty për ju 100%. Ne përdorim furgonë Mercedes me 8 + 1 vende dhe me bagazh të madh. Shoferët tanë janë të trajnuar dhe posedojnë licenca profesionale të vlefshme. Kryhet transporti i kafshëve tuaja shtëpiake dhe, nëse është e nevojshme, organizojmë akomodim ndërsa prisni transferimin."
   },
   "copyright_notice": {
-    "sr": "&#169; 2024 Transfer-Oxana. Sva prava zadržana.",
-    "en": "&#169; 2024 Transfer-Oxana. All rights reserved.",
-    "de": "&#169; 2024 Transfer-Oxana. Alle Rechte vorbehalten.",
-    "fr": "&#169; 2024 Transfer-Oxana. Tous droits réservés.",
-    "ru": "&#169; 2024 Transfer-Oxana. Все права защищены.",
-    "tr": "&#169; 2024 Transfer-Oxana. Tüm hakları saklıdır.",
-    "sq": "&#169; 2024 Transfer-Oxana. Të gjitha të drejtat e rezervuara."
-  },
-  "": {
-    "sr": "",
-    "en": "",
-    "de": "",
-    "fr": "",
-    "ru": "",
-    "tr": "",
-    "sq": ""
-  },
-  "": {
-    "sr": "",
-    "en": "",
-    "de": "",
-    "fr": "",
-    "ru": "",
-    "tr": "",
-    "sq": ""
-  },
-  "": {
-    "sr": "",
-    "en": "",
-    "de": "",
-    "fr": "",
-    "ru": "",
-    "tr": "",
-    "sq": ""
-  },
-  "": {
-    "sr": "",
-    "en": "",
-    "de": "",
-    "fr": "",
-    "ru": "",
-    "tr": "",
-    "sq": ""
-  },
-  "": {
-    "sr": "",
-    "en": "",
-    "de": "",
-    "fr": "",
-    "ru": "",
-    "tr": "",
-    "sq": ""
-  },
-  "": {
-    "sr": "",
-    "en": "",
-    "de": "",
-    "fr": "",
-    "ru": "",
-    "tr": "",
-    "sq": ""
+    "sr": "Sva prava zadržana.",
+    "en": "All rights reserved.",
+    "de": "Alle Rechte vorbehalten.",
+    "fr": "Tous droits réservés.",
+    "ru": "Все права защищены.",
+    "tr": "Tüm hakları saklıdır.",
+    "sq": "Të gjitha të drejtat e rezervuara."
   }
 }
