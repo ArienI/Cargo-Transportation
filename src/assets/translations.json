@@ -448,5 +448,23 @@
     "ru": "Все права защищены.",
     "tr": "Tüm hakları saklıdır.",
     "sq": "Të gjitha të drejtat e rezervuara."
+  },
+  "description": {
+    "sr": "Profesionalne transportne usluge u Crnoj Gori: transferi do aerodroma, ekskurzije po Balkanu, prevozi u Nemačku. Kontaktirajte nas za rezervaciju.",
+    "en": "Professional transport services in Montenegro: airport transfers, Balkan tours, transportation to Germany. Contact us to book.",
+    "de": "Professionelle Transportdienste in Montenegro: Flughafentransfers, Balkan-Touren, Fahrten nach Deutschland. Kontaktieren Sie uns für Reservierungen.",
+    "fr": "Services de transport professionnels au Monténégro : transferts aéroport, excursions dans les Balkans, transport vers l'Allemagne. Contactez-nous pour réserver.",
+    "ru": "Профессиональные транспортные услуги в Черногории: трансферы, экскурсии по Балканам, перевозки в Европу. Забронируйте сейчас.",
+    "tr": "Karadağ'da profesyonel ulaşım hizmetleri: havaalanı transferleri, Balkan turları, Almanya'ya ulaşım. Rezervasyon için iletişime geçin.",
+    "sq": "Shërbime transporti profesionale në Mal të Zi: transferet aeroportuale, ekskursione në Ballkan, transport drejt Gjermanisë. Na kontaktoni për të rezervuar."
+  },
+  "keywords": {
+    "sr": "usluge transfera, ekskurzije, prevoz putnika, Crna Gora, aerodromski transfer, turističke ture",
+    "en": "transfer services, excursions, passenger transport, Montenegro, airport transfer, tourism tours",
+    "de": "Transferdienste, Ausflüge, Personentransport, Montenegro, Flughafentransfer, Tourismustouren",
+    "fr": "services de transfert, excursions, transport de passagers, Monténégro, transfert aéroport, circuits touristiques",
+    "ru": "услуги трансфера, экскурсии, пассажирские перевозки, Черногория, трансфер до аэропорта, туристические туры",
+    "tr": "transfer hizmetleri, geziler, yolcu taşımacılığı, Karadağ, havaalanı transferi, turizm turları",
+    "sq": "shërbime transferi, ekskursione, transport pasagjerësh, Mali i Zi, transfer aeroportual, ture turistike"
   }
 }
