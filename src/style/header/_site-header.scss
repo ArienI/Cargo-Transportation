@@ -2,6 +2,16 @@
   color: var(--black-color);
   background-color: var(--white-color);
 
+  &--fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    min-width: var(--min-site-width);
+  }
+
+
   &__top {
     padding-top: 10px;
     padding-bottom: 4px;
@@ -57,7 +67,12 @@
   }
 
   @include media-min ($md) {
+    &__bottom-wrapper {
+      flex-wrap: nowrap;
+    }
+
     &__logo-link {
+      flex-shrink: 1;
 
       & img {
         width: 200px;
