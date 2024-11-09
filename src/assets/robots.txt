@@ -1,2 +1,8 @@
 User-agent: *
-Disallow: /
+Allow: /*
+Disallow: /settings/
+Disallow: /*.js
+Disallow: /*.css
+
+Host: https://transfer-oxana.vip/
+Sitemap: https://transfer-oxana.vip/sitemap.xml
