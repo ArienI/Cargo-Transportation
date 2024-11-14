@@ -1,0 +1,57 @@
+.page-404 {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0;
+
+  &__banner {
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/404/1.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @include media-min($md) {
+      min-height: 500px;
+    }
+
+    @include media-min($lg) {
+      min-height: 700px;
+    }
+
+    @include media-min($xl) {
+      min-height: 800px;
+    }
+
+    @include media-min($xxl) {
+      min-height: 1000px;
+      background-position: top;
+    }
+  }
+
+  &__error {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+    @include media-min($lg) {
+      font-size: 60px;
+    }
+
+    @include media-min($xl) {
+      font-size: 120px;
+    }
+  }
+
+  &__title {
+    text-align: center;
+
+    @include media-min($lg) {
+      font-size: 40px;
+    }
+
+    @include media-min($xl) {
+      font-size: 60px;
+    }
+  }
+}
