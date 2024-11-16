@@ -1,3 +1,3 @@
 # Cargo-Transportation
 
-https://arieni.github.io/Cargo-Transportation/
+https://arieni.github.io/cargo-transportation/
